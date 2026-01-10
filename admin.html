@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Neuhausen - Admin</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .hidden { display: none; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px; }
+        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; }
+        button.logout { background: #dc3545; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div id="login-area" class="card" style="max-width: 400px; margin: auto;">
+        <h2>Admin Login</h2>
+        <input type="email" id="email" placeholder="E-Mail">
+        <input type="password" id="password" placeholder="Passwort">
+        <button onclick="login()">Anmelden</button>
+        <p id="msg"></p>
+    </div>
+
+    <div id="admin-dashboard" class="hidden">
+        <h1 id="welcome-msg">Willkommen</h1>
+        <div class="grid">
+            <div id="section-sponsoren" class="card hidden">
+                <h3>Sponsorenverwaltung</h3>
+                <p>Hier kannst du Sponsoren hinzufügen/löschen.</p>
+                <button>Bearbeiten</button>
+            </div>
+
+            <div id="section-abteilung" class="card hidden">
+                <h3 id="dept-title">Abteilung</h3>
+                <p>Hier kannst du News und Texte für deine Sparte ändern.</p>
+                <button>Inhalte bearbeiten</button>
+            </div>
+        </div>
+        <button class="logout" onclick="logout()">Abmelden</button>
+    </div>
+
+    <script>
+        const SB_URL = "https://rqeotntlcrqzjaqwwuwa.supabase.co";
+        const SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJxZW90bnRsY3JxemphcXd3dXdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgwNDI0MzQsImV4cCI6MjA4MzYxODQzNH0.6XCGl4f4e8vouJ09Jc_9uCmRvsniWSvyIc9VX3ooHG4";
+        const supabase = supabase.createClient(SB_URL, SB_KEY);
+
+        async function login() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+
+            if (error) {
+                document.getElementById('msg').innerText = "Fehler: " + error.message;
+            } else {
+                loadUserData(data.user.email);
+            }
+        }
+
+        async function loadUserData(email) {
+            const { data, error } = await supabase
+                .from('benutzerverwaltung')
+                .select('*')
+                .eq('email', email)
+                .single();
+
+            if (data) {
+                document.getElementById('login-area').classList.add('hidden');
+                document.getElementById('admin-dashboard').classList.remove('hidden');
+                document.getElementById('welcome-msg').innerText = `Hallo, ${data.name}!`;
+
+                // Rollen-Logik
+                if (data.rolle === 'admin') {
+                    document.getElementById('section-sponsoren').classList.remove('hidden');
+                }
+                
+                // Abteilungs-Logik
+                if (data.abteilung !== 'all') {
+                    document.getElementById('section-abteilung').classList.remove('hidden');
+                    document.getElementById('dept-title').innerText = "Abteilung: " + data.abteilung;
+                }
+            }
+        }
+
+        async function logout() {
+            await supabase.auth.signOut();
+            location.reload();
+        }
+    </script>
+</body>
+</html>
