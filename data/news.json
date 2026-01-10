@@ -1,1 +1,11 @@
-
+{
+  "news": [
+    {
+      "id": 1,
+      "titel": "Willkommen",
+      "text": "Unser neues Admin-System ist online!",
+      "datum": "2026-01-10",
+      "abteilung": "Allgemein"
+    }
+  ]
+}
