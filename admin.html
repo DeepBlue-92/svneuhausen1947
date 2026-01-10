@@ -3,92 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SV Neuhausen - Admin</title>
+    <title>SV Neuhausen - Admin Panel</title>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <style>
-        body { font-family: sans-serif; background: #f4f4f9; padding: 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        :root { --primary: #004d99; --secondary: #f4f4f9; --success: #28a745; --danger: #dc3545; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--secondary); margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 900px; margin: auto; }
+        .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h1, h2, h3 { color: var(--primary); margin-top: 0; }
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box; font-size: 14px; }
+        textarea { font-family: monospace; height: 300px; resize: vertical; }
+        button { background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold; transition: opacity 0.2s; }
+        button:hover { opacity: 0.9; }
+        button.secondary { background: #6c757d; }
+        button.save { background: var(--success); width: 100%; margin-top: 10px; }
+        button.logout { background: var(--danger); margin-top: 20px; }
         .hidden { display: none; }
-        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px; }
-        button { background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; }
-        button.logout { background: #dc3545; margin-top: 20px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        #msg { color: var(--danger); font-weight: bold; }
+        .status-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
     </style>
 </head>
 <body>
 
-    <div id="login-area" class="card" style="max-width: 400px; margin: auto;">
-        <h2>Admin Login</h2>
-        <input type="email" id="email" placeholder="E-Mail">
+<div class="container">
+    <div id="login-area" class="card" style="max-width: 450px; margin: 100px auto;">
+        <h2>🔐 Vereins-Login</h2>
+        <p>Bitte logge dich mit deinem Admin-Konto ein.</p>
+        <input type="email" id="email" placeholder="E-Mail Adresse">
         <input type="password" id="password" placeholder="Passwort">
-        <button onclick="login()">Anmelden</button>
+        <button onclick="login()" style="width: 100%;">Anmelden</button>
         <p id="msg"></p>
     </div>
 
     <div id="admin-dashboard" class="hidden">
-        <h1 id="welcome-msg">Willkommen</h1>
+        <div class="status-bar">
+            <h1 id="welcome-msg">Willkommen</h1>
+            <button class="logout" onclick="logout()">Abmelden</button>
+        </div>
+
         <div class="grid">
-            <div id="section-sponsoren" class="card hidden">
-                <h3>Sponsorenverwaltung</h3>
-                <p>Hier kannst du Sponsoren hinzufügen/löschen.</p>
-                <button>Bearbeiten</button>
+            <div class="card">
+                <h3>Inhalt wählen</h3>
+                <p>Klicke auf einen Button, um die entsprechende Datei von GitHub zu laden:</p>
+                <button onclick="ladeDaten('data/news.json')">🗞️ News bearbeiten</button>
+                <button onclick="ladeDaten('data/sponsoren.json')" class="secondary">🤝 Sponsoren bearbeiten</button>
             </div>
 
-            <div id="section-abteilung" class="card hidden">
-                <h3 id="dept-title">Abteilung</h3>
-                <p>Hier kannst du News und Texte für deine Sparte ändern.</p>
-                <button>Inhalte bearbeiten</button>
+            <div class="card">
+                <h3>Hinweis</h3>
+                <p>Du bearbeitest hier direkt die JSON-Struktur. Achte darauf, keine Kommas oder Klammern zu löschen. Nach dem Speichern dauert es ca. 1-2 Minuten, bis die Website die Änderungen anzeigt.</p>
             </div>
         </div>
-        <button class="logout" onclick="logout()">Abmelden</button>
+
+        <div id="editor-section" class="card hidden">
+            <h3 id="current-file-title">Datei bearbeiten</h3>
+            <textarea id="edit-area"></textarea>
+            <button id="save-btn" class="save" onclick="speichereDaten()">Änderungen auf GitHub veröffentlichen</button>
+        </div>
     </div>
+</div>
 
-    <script>
-        const SB_URL = "https://rqeotntlcrqzjaqwwuwa.supabase.co";
-        const SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJxZW90bnRsY3JxemphcXd3dXdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgwNDI0MzQsImV4cCI6MjA4MzYxODQzNH0.6XCGl4f4e8vouJ09Jc_9uCmRvsniWSvyIc9VX3ooHG4";
-        const supabase = supabase.createClient(SB_URL, SB_KEY);
+<script>
+    // --- KONFIGURATION ---
+    const SB_URL = "https://rqeotntlcrqzjaqwwuwa.supabase.co";
+    const SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJxZW90bnRsY3JxemphcXd3dXdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgwNDI0MzQsImV4cCI6MjA4MzYxODQzNH0.6XCGl4f4e8vouJ09Jc_9uCmRvsniWSvyIc9VX3ooHG4";
+    const supabase = supabase.createClient(SB_URL, SB_KEY);
 
-        async function login() {
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-            const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+    let aktuelleDatei = "";
 
-            if (error) {
-                document.getElementById('msg').innerText = "Fehler: " + error.message;
+    // --- AUTHENTIFIZIERUNG ---
+    async function login() {
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+
+        if (error) {
+            document.getElementById('msg').innerText = "Fehler: " + error.message;
+        } else {
+            checkUserTable(data.user.email);
+        }
+    }
+
+    async function checkUserTable(email) {
+        const { data, error } = await supabase
+            .from('benutzerverwaltung')
+            .select('*')
+            .eq('email', email)
+            .single();
+
+        if (data) {
+            document.getElementById('login-area').classList.add('hidden');
+            document.getElementById('admin-dashboard').classList.remove('hidden');
+            document.getElementById('welcome-msg').innerText = `Hallo, ${data.name}!`;
+        } else {
+            alert("Du bist eingeloggt, aber dein Konto ist nicht in der Benutzerverwaltung hinterlegt.");
+        }
+    }
+
+    // --- DATEN LADEN ---
+    async function ladeDaten(pfad) {
+        aktuelleDatei = pfad;
+        try {
+            const response = await fetch(pfad);
+            if (!response.ok) throw new Error("Datei konnte nicht geladen werden.");
+            const daten = await response.json();
+            
+            document.getElementById('edit-area').value = JSON.stringify(daten, null, 2);
+            document.getElementById('current-file-title').innerText = "Bearbeite: " + pfad;
+            document.getElementById('editor-section').classList.remove('hidden');
+            window.scrollTo(0, document.body.scrollHeight);
+        } catch (err) {
+            alert("Fehler beim Laden: " + err.message);
+        }
+    }
+
+    // --- DATEN SPEICHERN ---
+    async function speichereDaten() {
+        const inhalt = document.getElementById('edit-area').value;
+        const btn = document.getElementById('save-btn');
+        
+        // Einfache Validierung
+        try { JSON.parse(inhalt); } catch(e) { alert("Fehler: Ungültiges JSON-Format!"); return; }
+
+        btn.innerText = "⏳ Speichert...";
+        btn.disabled = true;
+
+        try {
+            const response = await fetch('/.netlify/functions/save-data', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    path: aktuelleDatei,
+                    content: inhalt,
+                    message: `Update ${aktuelleDatei} via Web-Admin`
+                })
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                alert("Erfolg! Die Datei wurde an GitHub übertragen.");
             } else {
-                loadUserData(data.user.email);
+                alert("Fehler beim Speichern: " + result.error);
             }
+        } catch (err) {
+            alert("Netlify-Function konnte nicht erreicht werden.");
+        } finally {
+            btn.innerText = "Änderungen auf GitHub veröffentlichen";
+            btn.disabled = false;
         }
+    }
 
-        async function loadUserData(email) {
-            const { data, error } = await supabase
-                .from('benutzerverwaltung')
-                .select('*')
-                .eq('email', email)
-                .single();
+    async function logout() {
+        await supabase.auth.signOut();
+        location.reload();
+    }
+</script>
 
-            if (data) {
-                document.getElementById('login-area').classList.add('hidden');
-                document.getElementById('admin-dashboard').classList.remove('hidden');
-                document.getElementById('welcome-msg').innerText = `Hallo, ${data.name}!`;
-
-                // Rollen-Logik
-                if (data.rolle === 'admin') {
-                    document.getElementById('section-sponsoren').classList.remove('hidden');
-                }
-                
-                // Abteilungs-Logik
-                if (data.abteilung !== 'all') {
-                    document.getElementById('section-abteilung').classList.remove('hidden');
-                    document.getElementById('dept-title').innerText = "Abteilung: " + data.abteilung;
-                }
-            }
-        }
-
-        async function logout() {
-            await supabase.auth.signOut();
-            location.reload();
-        }
-    </script>
 </body>
 </html>
