@@ -10,15 +10,15 @@ exports.handler = async (event) => {
   try {
     // 1. SHA der existierenden Datei holen (wichtig für GitHub Updates)
     const { data } = await octokit.repos.getContent({
-      owner: "DEIN_GITHUB_NAME", // <-- Deinen Namen eintragen (z.B. der Name vor /svneuhausen)
-      repo: "svneuhausen",       // <-- Dein Repo-Name
+      owner: "DeepBlue-92", // <-- Deinen Namen eintragen (z.B. der Name vor /svneuhausen1947)
+      repo: "svneuhausen1947",       // <-- Dein Repo-Name
       path: path,
     });
 
     // 2. Datei mit neuem Inhalt überschreiben
     await octokit.repos.createOrUpdateFileContents({
-      owner: "DEIN_GITHUB_NAME", // <-- Deinen Namen eintragen
-      repo: "svneuhausen",
+      owner: "DeepBlue-92", // <-- Deinen Namen eintragen
+      repo: "svneuhausen1947",
       path: path,
       message: message || "Update via Admin-Panel",
       content: Buffer.from(content).toString("base64"),
