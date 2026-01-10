@@ -1,1 +1,9 @@
-[]
+{
+  "sponsoren": [
+    {
+      "name": "Beispiel Sponsor",
+      "logoUrl": "pfad/zum/logo.png",
+      "link": "https://beispiel.de"
+    }
+  ]
+}
