@@ -20,7 +20,7 @@
         button.logout { background: var(--danger); margin-top: 20px; }
         .hidden { display: none; }
         .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        #msg { color: var(--danger); font-weight: bold; }
+        #msg { color: var(--danger); font-weight: bold; margin-top: 10px; }
         .status-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
     </style>
 </head>
@@ -45,14 +45,14 @@
         <div class="grid">
             <div class="card">
                 <h3>Inhalt wählen</h3>
-                <p>Klicke auf einen Button, um die entsprechende Datei von GitHub zu laden:</p>
-                <button onclick="ladeDaten('data/news.json')">🗞️ News bearbeiten</button>
-                <button onclick="ladeDaten('data/sponsoren.json')" class="secondary">🤝 Sponsoren bearbeiten</button>
+                <p>Welche Datei möchtest du bearbeiten?</p>
+                <button onclick="ladeDaten('data/news.json')">🗞️ News laden</button>
+                <button onclick="ladeDaten('data/sponsoren.json')" class="secondary">🤝 Sponsoren laden</button>
             </div>
 
             <div class="card">
-                <h3>Hinweis</h3>
-                <p>Du bearbeitest hier direkt die JSON-Struktur. Achte darauf, keine Kommas oder Klammern zu löschen. Nach dem Speichern dauert es ca. 1-2 Minuten, bis die Website die Änderungen anzeigt.</p>
+                <h3>Hilfe</h3>
+                <p>Achte beim Bearbeiten der JSON-Daten darauf, die Anführungszeichen und Kommas nicht zu löschen. Das System prüft das Format vor dem Speichern.</p>
             </div>
         </div>
 
@@ -68,7 +68,9 @@
     // --- KONFIGURATION ---
     const SB_URL = "https://rqeotntlcrqzjaqwwuwa.supabase.co";
     const SB_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJxZW90bnRsY3JxemphcXd3dXdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgwNDI0MzQsImV4cCI6MjA4MzYxODQzNH0.6XCGl4f4e8vouJ09Jc_9uCmRvsniWSvyIc9VX3ooHG4";
-    const supabase = supabase.createClient(SB_URL, SB_KEY);
+    
+    // Wir nutzen 'db', um Konflikte mit der globalen 'supabase' Library zu vermeiden
+    const db = supabase.createClient(SB_URL, SB_KEY);
 
     let aktuelleDatei = "";
 
@@ -76,17 +78,26 @@
     async function login() {
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
-        const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+        const msgDiv = document.getElementById('msg');
+        
+        msgDiv.innerText = "Prüfe Anmeldung...";
 
-        if (error) {
-            document.getElementById('msg').innerText = "Fehler: " + error.message;
-        } else {
-            checkUserTable(data.user.email);
+        try {
+            const { data, error } = await db.auth.signInWithPassword({ email, password });
+
+            if (error) {
+                msgDiv.innerText = "Fehler: " + error.message;
+            } else if (data.user) {
+                checkUserTable(data.user.email);
+            }
+        } catch (err) {
+            msgDiv.innerText = "Verbindungsfehler zu Supabase.";
+            console.error(err);
         }
     }
 
     async function checkUserTable(email) {
-        const { data, error } = await supabase
+        const { data, error } = await db
             .from('benutzerverwaltung')
             .select('*')
             .eq('email', email)
@@ -97,7 +108,8 @@
             document.getElementById('admin-dashboard').classList.remove('hidden');
             document.getElementById('welcome-msg').innerText = `Hallo, ${data.name}!`;
         } else {
-            alert("Du bist eingeloggt, aber dein Konto ist nicht in der Benutzerverwaltung hinterlegt.");
+            alert("Zugriff verweigert: Deine E-Mail ist nicht in der Benutzerliste.");
+            await db.auth.signOut();
         }
     }
 
@@ -106,7 +118,7 @@
         aktuelleDatei = pfad;
         try {
             const response = await fetch(pfad);
-            if (!response.ok) throw new Error("Datei konnte nicht geladen werden.");
+            if (!response.ok) throw new Error("Datei nicht gefunden.");
             const daten = await response.json();
             
             document.getElementById('edit-area').value = JSON.stringify(daten, null, 2);
@@ -123,10 +135,10 @@
         const inhalt = document.getElementById('edit-area').value;
         const btn = document.getElementById('save-btn');
         
-        // Einfache Validierung
-        try { JSON.parse(inhalt); } catch(e) { alert("Fehler: Ungültiges JSON-Format!"); return; }
+        // JSON Validierung
+        try { JSON.parse(inhalt); } catch(e) { alert("Fehler: Ungültiges JSON-Format! Bitte Klammern und Kommas prüfen."); return; }
 
-        btn.innerText = "⏳ Speichert...";
+        btn.innerText = "⏳ Übertrage zu GitHub...";
         btn.disabled = true;
 
         try {
@@ -136,18 +148,18 @@
                 body: JSON.stringify({
                     path: aktuelleDatei,
                     content: inhalt,
-                    message: `Update ${aktuelleDatei} via Web-Admin`
+                    message: `Update ${aktuelleDatei} via Admin-Panel`
                 })
             });
 
             const result = await response.json();
             if (result.success) {
-                alert("Erfolg! Die Datei wurde an GitHub übertragen.");
+                alert("Erfolgreich gespeichert! Die Änderungen sind in ca. 1 Minute online.");
             } else {
                 alert("Fehler beim Speichern: " + result.error);
             }
         } catch (err) {
-            alert("Netlify-Function konnte nicht erreicht werden.");
+            alert("Netlify Function nicht erreichbar. Hast du den GH_TOKEN gesetzt?");
         } finally {
             btn.innerText = "Änderungen auf GitHub veröffentlichen";
             btn.disabled = false;
@@ -155,7 +167,7 @@
     }
 
     async function logout() {
-        await supabase.auth.signOut();
+        await db.auth.signOut();
         location.reload();
     }
 </script>
