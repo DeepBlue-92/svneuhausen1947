@@ -50,6 +50,26 @@
     "status": "approved"
   },
   {
+    "id": "17681625112636516",
+    "title": "(SG) TSV Pfaffenberg-(SG) SV  Neuhausen\\, Meisterschaften\\, U17 (",
+    "startDate": "2026-04-19",
+    "startTime": "09:00",
+    "endTime": "10:35",
+    "location": "Sportzentrum Igeltal Pfaffenberg\\, Platz 1\\,Holztraubacher Str. ",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "17681625112631156",
+    "title": "(SG) SV  Neuhausen-(SG) VfR Laberweinting II\\, Meisterschaften\\, ",
+    "startDate": "2026-04-24",
+    "startTime": "16:30",
+    "endTime": "18:05",
+    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "17681620206242912",
     "title": "TSV Tiefenbach-(SG) Weihmichl/Neuhausen\\, Meisterschaften\\, KK 2 ",
     "startDate": "2026-04-25",
@@ -70,6 +90,26 @@
     "status": "approved"
   },
   {
+    "id": "17681625112637518",
+    "title": "(SG) SV Gündlkofen-(SG) SV  Neuhausen\\, Meisterschaften\\, U17 (B-",
+    "startDate": "2026-05-03",
+    "startTime": "08:30",
+    "endTime": "10:05",
+    "location": "Sportanlage Furth\\, Platz 1\\,Schatzhofener Str. 1\\,84095 Furth",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "17681625112638533",
+    "title": "(SG) SV  Neuhausen-(SG) TSV Ergoldsbach\\, Meisterschaften\\, U17 (",
+    "startDate": "2026-05-08",
+    "startTime": "16:30",
+    "endTime": "18:05",
+    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "17681620206246736",
     "title": "(SG) Weihmichl/Neuhausen-SV LA-Münchnerau\\, Meisterschaften\\, KK ",
     "startDate": "2026-05-10",
@@ -86,6 +126,36 @@
     "startTime": "14:00",
     "endTime": "15:45",
     "location": "Sportanlage Gündlkofen\\, Platz 1\\,Dekan-Hort-Str. 42\\,84079 Bruc",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "17681625112631756",
+    "title": "(SG) SV Oberglaim-(SG) SV  Neuhausen\\, Meisterschaften\\, U17 (B-J",
+    "startDate": "2026-05-16",
+    "startTime": "13:45",
+    "endTime": "15:20",
+    "location": "Sportplatz Hohenthann\\,Gambacher Str. 25\\,84098 Hohenthann",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "17681625112631398",
+    "title": "(SG) SV  Neuhausen-SV Landshut-Münchnerau II\\, Meisterschaften\\, ",
+    "startDate": "2026-06-12",
+    "startTime": "16:30",
+    "endTime": "18:05",
+    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "17681625112638517",
+    "title": "ETSV 09 Landshut-(SG) SV  Neuhausen\\, Meisterschaften\\, U17 (B-Ju",
+    "startDate": "2026-06-21",
+    "startTime": "08:30",
+    "endTime": "10:05",
+    "location": "Sportanlage Landshut-ETSV 09\\, Platz 1\\,Siemensstr. 2\\,84030 Lan",
     "departmentId": "all",
     "status": "approved"
   }
