@@ -6,7 +6,7 @@
     "startTime": "14:00",
     "endTime": "15:45",
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -16,7 +16,7 @@
     "startTime": "12:00",
     "endTime": "13:45",
     "location": "Oberglaimer Alm\\, Platz 1\\,Oberglaimer Alm 1\\,84030 Ergolding",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -26,7 +26,7 @@
     "startTime": "12:00",
     "endTime": "13:45",
     "location": "Sportanlage Auloh\\, Platz 1\\,Duniwang 3a\\,84036 Landshut",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -36,7 +36,7 @@
     "startTime": "14:00",
     "endTime": "15:45",
     "location": "Sportanlage Baierbach\\, Platz 1\\,Jägerstr. 11\\,84171 Baierbach",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -46,7 +46,7 @@
     "startTime": "13:00",
     "endTime": "14:45",
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -56,7 +56,7 @@
     "startTime": "09:00",
     "endTime": "10:35",
     "location": "Sportzentrum Igeltal Pfaffenberg\\, Platz 1\\,Holztraubacher Str. ",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -66,7 +66,7 @@
     "startTime": "16:30",
     "endTime": "18:05",
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -76,7 +76,7 @@
     "startTime": "12:00",
     "endTime": "13:45",
     "location": "Sportanlage Tiefenbach\\, Platz 1\\,Am Sportplatz 2\\,84184 Tiefenb",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -86,7 +86,7 @@
     "startTime": "13:00",
     "endTime": "14:45",
     "location": "Sportanlage Weihmichl\\, Platz 1\\,Am Pfarranger 5\\,84107 Weihmich",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -96,7 +96,7 @@
     "startTime": "08:30",
     "endTime": "10:05",
     "location": "Sportanlage Furth\\, Platz 1\\,Schatzhofener Str. 1\\,84095 Furth",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -106,7 +106,7 @@
     "startTime": "16:30",
     "endTime": "18:05",
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -116,7 +116,7 @@
     "startTime": "13:00",
     "endTime": "14:45",
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -126,7 +126,7 @@
     "startTime": "14:00",
     "endTime": "15:45",
     "location": "Sportanlage Gündlkofen\\, Platz 1\\,Dekan-Hort-Str. 42\\,84079 Bruc",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -136,7 +136,7 @@
     "startTime": "13:45",
     "endTime": "15:20",
     "location": "Sportplatz Hohenthann\\,Gambacher Str. 25\\,84098 Hohenthann",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -146,7 +146,7 @@
     "startTime": "16:30",
     "endTime": "18:05",
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   },
   {
@@ -156,7 +156,7 @@
     "startTime": "08:30",
     "endTime": "10:05",
     "location": "Sportanlage Landshut-ETSV 09\\, Platz 1\\,Siemensstr. 2\\,84030 Lan",
-    "departmentId": "all",
+    "departmentId": "fussball",
     "status": "approved"
   }
 ]
