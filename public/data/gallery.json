@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "title": "Unsere Anlage von oben",
+    "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/902d56d7e9976b21d1cf807738d859daa0b7a9df/tennisanlage1.jpg",
+    "departmentId": "tennis"
+  },
+  {
+    "id": "3",
+    "title": "Vereinsheim Terrasse",
+    "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/c8f5724978c40c9d89284f4ae509b06459a264e7/tennisheim1.jpg",
+    "departmentId": "tennis"
+  }
+]
