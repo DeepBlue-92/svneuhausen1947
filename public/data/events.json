@@ -1,5 +1,15 @@
 [
   {
+    "id": "1769814064158",
+    "title": "Generalversammlung",
+    "startDate": "2026-02-27",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "location": "Sportheim",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "1769343559281",
     "title": "KUMDO – Koreanischer Schwertkampf - Schnupperseminar",
     "startDate": "2026-03-01",
