@@ -1,15 +1,5 @@
 [
   {
-    "id": "1769862069741",
-    "title": "Tennis test 2",
-    "startDate": "2026-02-05",
-    "startTime": "20:00",
-    "endTime": "21:00",
-    "location": "Tennisheim",
-    "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
     "id": "1769814064158",
     "title": "Generalversammlung",
     "startDate": "2026-02-27",
