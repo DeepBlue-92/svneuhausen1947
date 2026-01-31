@@ -1,5 +1,15 @@
 [
   {
+    "id": "1769861900500",
+    "title": "Tennis Test",
+    "startDate": "2026-01-31",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "location": "Sportgelände",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
     "id": "1769814064158",
     "title": "Generalversammlung",
     "startDate": "2026-02-27",
