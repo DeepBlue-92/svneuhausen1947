@@ -101,6 +101,16 @@
     "status": "approved"
   },
   {
+    "id": "1769862169677",
+    "title": "tennis test 3",
+    "startDate": "2026-04-20",
+    "startTime": "08:00",
+    "endTime": "12:00",
+    "location": "Sportheim",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
     "id": "17681625112631156",
     "title": "(SG) SV  Neuhausen-(SG) VfR Laberweinting II\\, Meisterschaften\\, ",
     "startDate": "2026-04-24",
