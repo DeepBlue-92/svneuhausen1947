@@ -1,14 +1,5 @@
 [
   {
-    "id": "1769965854400",
-    "title": "Testtermin",
-    "startDate": "2026-02-01",
-    "startTime": "10:00",
-    "location": "Sportgelände",
-    "departmentId": "schwertkampf",
-    "status": "approved"
-  },
-  {
     "id": "1769814064158",
     "title": "Generalversammlung",
     "startDate": "2026-02-27",
