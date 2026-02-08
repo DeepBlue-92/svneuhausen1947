@@ -1,5 +1,15 @@
 [
   {
+    "id": "1770558977720",
+    "title": "Tennis-Hallenturnier",
+    "startDate": "2026-02-07",
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "location": "Tennishalle Rottenburg",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
     "id": "1769814064158",
     "title": "Generalversammlung",
     "startDate": "2026-02-27",
