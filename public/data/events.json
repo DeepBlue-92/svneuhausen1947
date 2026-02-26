@@ -10,16 +10,6 @@
     "status": "approved"
   },
   {
-    "id": "1772140021368",
-    "title": "Karate Test",
-    "startDate": "2026-02-26",
-    "startTime": "20:00",
-    "endTime": "21:00",
-    "location": "Sportgelände",
-    "departmentId": "karate",
-    "status": "approved"
-  },
-  {
     "id": "1769814064158",
     "title": "Generalversammlung",
     "startDate": "2026-02-27",
