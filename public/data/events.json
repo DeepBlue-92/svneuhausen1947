@@ -53,6 +53,17 @@
     "status": "approved"
   },
   {
+    "id": "1772238896634",
+    "title": "KUMDO-Schnupperseminar",
+    "startDate": "2026-03-01",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "location": "Turnhalle Unterneuhausen",
+    "departmentId": "schwertkampf",
+    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1772238848261_KUMDO-Schnupperseminar-Flyer.pdf",
+    "status": "approved"
+  },
+  {
     "id": "17681620206243271",
     "title": "(SG) Weihmichl/Neuhausen-SV Wendelskirchen",
     "startDate": "2026-03-22",
