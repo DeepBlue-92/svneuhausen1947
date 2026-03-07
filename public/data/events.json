@@ -169,15 +169,5 @@
     "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
     "departmentId": "fussball",
     "status": "approved"
-  },
-  {
-    "id": "17681625112638517",
-    "title": "ETSV 09 Landshut-(SG) SV  Neuhausen\\, Meisterschaften\\, U17 (B-Ju",
-    "startDate": "2026-06-21",
-    "startTime": "08:30",
-    "endTime": "10:05",
-    "location": "Sportanlage Landshut-ETSV 09\\, Platz 1\\,Siemensstr. 2\\,84030 Lan",
-    "departmentId": "fussball",
-    "status": "approved"
   }
 ]
