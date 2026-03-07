@@ -41,6 +41,16 @@
     "status": "approved"
   },
   {
+    "id": "1772922704933",
+    "title": "Testspiel gegen FC Eintracht Landshut",
+    "startDate": "2026-03-14",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "location": "Sportplatz Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved"
+  },
+  {
     "id": "17681620206243271",
     "title": "(SG) Weihmichl/Neuhausen-SV Wendelskirchen",
     "startDate": "2026-03-22",
