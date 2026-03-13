@@ -41,6 +41,16 @@
     "status": "approved"
   },
   {
+    "id": "1773433919245",
+    "title": "Testtermin",
+    "startDate": "2026-03-19",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "location": "Ein Ort",
+    "departmentId": "karate",
+    "status": "approved"
+  },
+  {
     "id": "17681620206243271",
     "title": "Heimspiel gegen SV Wendelskirchen",
     "startDate": "2026-03-22",
