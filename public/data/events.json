@@ -41,13 +41,13 @@
     "status": "approved"
   },
   {
-    "id": "1773433919245",
+    "id": "1773434048102",
     "title": "Testtermin",
-    "startDate": "2026-03-19",
-    "startTime": "14:00",
-    "endTime": "15:00",
-    "location": "Ein Ort",
-    "departmentId": "karate",
+    "startDate": "2026-03-17",
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "location": "Sportgelände",
+    "departmentId": "all",
     "status": "approved"
   },
   {
