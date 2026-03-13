@@ -41,6 +41,16 @@
     "status": "approved"
   },
   {
+    "id": "1773432746282",
+    "title": "Test",
+    "startDate": "2026-03-16",
+    "startTime": "12:00",
+    "endTime": "13:00",
+    "location": "Test",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "17681620206243271",
     "title": "Heimspiel gegen SV Wendelskirchen",
     "startDate": "2026-03-22",
@@ -101,6 +111,25 @@
     "status": "approved"
   },
   {
+    "id": "tennis-2026-2",
+    "title": "Schleiferlturnier",
+    "startDate": "2026-04-26",
+    "startTime": "10:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-4",
+    "title": "Turnier in Furth",
+    "startDate": "2026-05-01",
+    "startTime": "",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved",
+    "isDateTBD": true
+  },
+  {
     "id": "17681620206248258",
     "title": "Heimspiel gegen TSV Kronwinkl",
     "startDate": "2026-05-03",
@@ -111,6 +140,24 @@
     "status": "approved"
   },
   {
+    "id": "tennis-2026-3",
+    "title": "Beginn Tennistraining",
+    "startDate": "2026-05-04",
+    "startTime": "17:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-5",
+    "title": "Auslosung-Vereinsmeisterschaft",
+    "startDate": "2026-05-08",
+    "startTime": "18:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
     "id": "17681620206246736",
     "title": "Heimspiel gegen SV LA-Münchnerau",
     "startDate": "2026-05-10",
@@ -118,6 +165,80 @@
     "endTime": "14:45",
     "location": "Sportanlage Neuhausen, Platz 1, Bräu-Taferl-Weg 3, 84107 Weihmichl",
     "departmentId": "fussball",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-6",
+    "title": "Turnier gegen Pfeffenhausen",
+    "startDate": "2026-06-01",
+    "startTime": "",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved",
+    "isDateTBD": true
+  },
+  {
+    "id": "tennis-2026-7",
+    "title": "Damen Einzelmeisterschaft",
+    "startDate": "2026-07-04",
+    "startTime": "10:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-8",
+    "title": "Endspiele Meisterschaft Herren",
+    "startDate": "2026-07-18",
+    "startTime": "10:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-9",
+    "title": "Abschlußturnier Kinder u. Jugend",
+    "startDate": "2026-07-29",
+    "startTime": "15:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-10",
+    "title": "Mixedturnier mit Sommerfest",
+    "startDate": "2026-09-13",
+    "startTime": "10:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-12",
+    "title": "Vergleichsturnier in Pfeffenhausen",
+    "startDate": "2026-10-01",
+    "startTime": "",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved",
+    "isDateTBD": true
+  },
+  {
+    "id": "tennis-2026-11",
+    "title": "Herren Doppelmeisterschaft",
+    "startDate": "2026-10-03",
+    "startTime": "10:00",
+    "location": "",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-13",
+    "title": "Hauptversammlung mit Neuwahlen",
+    "startDate": "2026-11-06",
+    "startTime": "19:00",
+    "location": "",
+    "departmentId": "tennis",
     "status": "approved"
   }
 ]
