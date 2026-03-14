@@ -32,16 +32,6 @@
     "status": "approved"
   },
   {
-    "id": "1773434048102",
-    "title": "Testtermin",
-    "startDate": "2026-03-17",
-    "startTime": "12:00",
-    "endTime": "14:00",
-    "location": "Sportgelände",
-    "departmentId": "all",
-    "status": "approved"
-  },
-  {
     "id": "17681620206243271",
     "title": "Heimspiel gegen SV Wendelskirchen",
     "startDate": "2026-03-22",
