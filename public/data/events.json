@@ -32,13 +32,13 @@
     "status": "approved"
   },
   {
-    "id": "1772922704933",
-    "title": "Testspiel gegen FC Eintracht Landshut",
-    "startDate": "2026-03-14",
-    "startTime": "14:00",
-    "endTime": "16:00",
-    "location": "Sportanlage Neuhausen, Bräu-Taferl-Weg 3, 84107 Weihmichl",
-    "departmentId": "fussball",
+    "id": "1773434048102",
+    "title": "Testtermin",
+    "startDate": "2026-03-17",
+    "startTime": "12:00",
+    "endTime": "14:00",
+    "location": "Sportgelände",
+    "departmentId": "all",
     "status": "approved"
   },
   {
