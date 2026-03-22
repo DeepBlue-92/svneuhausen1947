@@ -150,8 +150,7 @@
     "id": "tennis-2026-6",
     "title": "Turnier gegen Pfeffenhausen",
     "startDate": "2026-06-01",
-    "startTime": "",
-    "location": "",
+    "location": "Tennisanlage Pfeffenhausen",
     "departmentId": "tennis",
     "status": "approved",
     "isDateTBD": true
