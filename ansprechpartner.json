@@ -1,1 +1,28 @@
-
+[
+  {
+    "title": "Vorstandschaft",
+    "iconName": "Shield",
+    "contacts": [
+      {
+        "role": "1. Vorstand",
+        "name": "Michael Blendl",
+        "phone": "0179 / 7906863"
+      }
+    ]
+  },
+  {
+    "title": "Finanzen & Verwaltung",
+    "iconName": "FileText",
+    "contacts": []
+  },
+  {
+    "title": "Fußball: Abteilungsleitung & Trainer",
+    "iconName": "Trophy",
+    "contacts": []
+  },
+  {
+    "title": "Weitere Abteilungen",
+    "iconName": "Users",
+    "contacts": []
+  }
+]
