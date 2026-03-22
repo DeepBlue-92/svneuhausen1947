@@ -104,8 +104,7 @@
     "id": "tennis-2026-4",
     "title": "Turnier in Furth",
     "startDate": "2026-05-01",
-    "startTime": "",
-    "location": "",
+    "location": "Tennisanlage Furth",
     "departmentId": "tennis",
     "status": "approved",
     "isDateTBD": true
