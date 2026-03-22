@@ -8,22 +8,103 @@
         "name": "Michael Blendl",
         "phone": "0179 / 7906863",
         "email": "michael.blendl@gmx.de"
+      },
+      {
+        "role": "2. Vorstand",
+        "name": "Georg Kindsmüller",
+        "phone": "0160 / 8432058"
+      },
+      {
+        "role": "3. Vorstand",
+        "name": "Martin Inderst",
+        "phone": "0171 / 3362732"
       }
     ]
   },
   {
     "title": "Finanzen & Verwaltung",
     "iconName": "FileText",
-    "contacts": []
+    "contacts": [
+      {
+        "role": "Erster Kassier",
+        "name": "Claudia Trinkl",
+        "phone": "08708 / 760",
+        "email": "kassenwart@svneuhausen1947.de"
+      },
+      {
+        "role": "Zweiter Kassier",
+        "name": "Georg Stanglmayr",
+        "phone": "0176 / 61550853"
+      },
+      {
+        "role": "Erster Schriftführer",
+        "name": "Florian Gerauer",
+        "phone": "0163 / 7171106"
+      },
+      {
+        "role": "Zweiter Schriftführer",
+        "name": "Angelika Müller",
+        "phone": "08708 / 689",
+        "email": "angelikamueller-4@t-online.de"
+      }
+    ]
   },
   {
     "title": "Fußball: Abteilungsleitung & Trainer",
     "iconName": "Trophy",
-    "contacts": []
+    "contacts": [
+      {
+        "role": "Abteilungsleiter",
+        "name": "Christian Meier",
+        "phone": "0160 / 7732726",
+        "email": "christianmeier9@t-online.de"
+      },
+      {
+        "role": "Trainingsleiter Jugend",
+        "name": "Gerhard Blaschke",
+        "phone": "0175 3646656"
+      },
+      {
+        "role": "Trainer Senioren",
+        "name": "Valjmir Aljilji"
+      },
+      {
+        "role": "Trainer Senioren",
+        "name": "Jürgen Stadler"
+      },
+      {
+        "role": "Trainer Senioren",
+        "name": "Christoph Holland"
+      }
+    ]
   },
   {
     "title": "Weitere Abteilungen",
     "iconName": "Users",
-    "contacts": []
+    "contacts": [
+      {
+        "role": "Karate",
+        "name": "Manfred Rabl",
+        "phone": "08708 / 1344",
+        "email": "seibukan-karate.neuhausen@t-online.de"
+      },
+      {
+        "role": "Kumdo",
+        "name": "Dennis Saler",
+        "phone": "0162 / 4139432",
+        "email": "dennis.saler@gmx.de"
+      },
+      {
+        "role": "Tennis",
+        "name": "Johann Wendl",
+        "phone": "0151 / 52095453"
+      },
+      {
+        "role": "Turn dich Fit",
+        "name": "Angelika Müller",
+        "phone": "08708 / 689",
+        "email": "angelikamueller-4@t-online.de"
+      }
+    ]
   }
 ]
