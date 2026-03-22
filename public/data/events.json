@@ -124,8 +124,7 @@
     "id": "tennis-2026-3",
     "title": "Beginn Tennistraining",
     "startDate": "2026-05-04",
-    "startTime": "17:00",
-    "location": "",
+    "location": "Sportgelände",
     "departmentId": "tennis",
     "status": "approved"
   },
