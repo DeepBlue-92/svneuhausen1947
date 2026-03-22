@@ -174,10 +174,9 @@
   },
   {
     "id": "tennis-2026-9",
-    "title": "Abschlußturnier Kinder u. Jugend",
+    "title": "Abschlußturnier Kinder und Jugend",
     "startDate": "2026-07-29",
-    "startTime": "15:00",
-    "location": "",
+    "location": "Sportgelände",
     "departmentId": "tennis",
     "status": "approved"
   },
