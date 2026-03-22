@@ -200,8 +200,7 @@
     "id": "tennis-2026-11",
     "title": "Herren Doppelmeisterschaft",
     "startDate": "2026-10-03",
-    "startTime": "10:00",
-    "location": "",
+    "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
   },
