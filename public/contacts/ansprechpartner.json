@@ -56,39 +56,24 @@
         "role": "Abteilungsleiter",
         "name": "Christian Meier",
         "phone": "0160 / 7732726",
-        "email": "christianmeier9@t-online.de",
-        "departments": [
-          "fussball"
-        ]
+        "email": "christianmeier9@t-online.de"
       },
       {
         "role": "Trainingsleiter Jugend",
         "name": "Gerhard Blaschke",
-        "phone": "0175 3646656",
-        "departments": [
-          "fussball"
-        ]
+        "phone": "0175 3646656"
       },
       {
         "role": "Trainer Senioren",
-        "name": "Valjmir Aljilji",
-        "departments": [
-          "fussball"
-        ]
+        "name": "Valjmir Aljilji"
       },
       {
         "role": "Trainer Senioren",
-        "name": "Jürgen Stadler",
-        "departments": [
-          "fussball"
-        ]
+        "name": "Jürgen Stadler"
       },
       {
         "role": "Trainer Senioren",
-        "name": "Christoph Holland",
-        "departments": [
-          "fussball"
-        ]
+        "name": "Christoph Holland"
       }
     ]
   },
@@ -111,50 +96,24 @@
         "role": "Abteilungsleiter Kumdo",
         "name": "Dennis Saler",
         "phone": "0162 / 4139432",
-        "email": "dennis.saler@gmx.de",
-        "departments": [
-          "schwertkampf"
-        ]
+        "email": "dennis.saler@gmx.de"
       },
       {
         "role": "Abteilungsleiter Tennis",
         "name": "Johann Wendl",
-        "phone": "0151 / 52095453",
-        "departments": [
-          "tennis"
-        ],
-        "email": "johann.wendl@t-online.de",
-        "id": "1zsfyd",
-        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-1zsfyd.jpg"
+        "phone": "0151 / 52095453"
       },
       {
         "role": "Abteilungsleiterin Turn dich Fit",
         "name": "Angelika Müller",
         "phone": "08708 / 689",
-        "email": "angelikamueller-4@t-online.de",
-        "departments": [
-          "turndichfit"
-        ]
+        "email": "angelikamueller-4@t-online.de"
       },
       {
-        "role": "Sportwart Tennis",
-        "name": "Rüdiger Knyrim",
-        "departments": [
-          "tennis"
-        ],
-        "email": "ruediger.kynrim@t-online.de",
-        "id": "cigi0a",
-        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-cigi0a.jpg"
-      },
-      {
-        "role": "Platzwart & Jugentrainer Tennis",
-        "name": "Markus Biermacher",
-        "departments": [
-          "tennis"
-        ],
-        "email": "m_biermacher@web.de",
-        "id": "cp9mif",
-        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-cp9mif.jpg"
+        "role": "Abteilungsleiterin Turn dich Fit",
+        "name": "Angelika Müller",
+        "phone": "08708 / 689",
+        "email": "angelikamueller-4@t-online.de"
       }
     ]
   }
