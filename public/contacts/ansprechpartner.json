@@ -107,13 +107,10 @@
         "role": "Abteilungsleiterin Turn dich Fit",
         "name": "Angelika Müller",
         "phone": "08708 / 689",
-        "email": "angelikamueller-4@t-online.de"
-      },
-      {
-        "role": "Abteilungsleiterin Turn dich Fit",
-        "name": "Angelika Müller",
-        "phone": "08708 / 689",
-        "email": "angelikamueller-4@t-online.de"
+        "email": "angelikamueller-4@t-online.de",
+        "departments": [
+          "turndichfit"
+        ]
       }
     ]
   }
