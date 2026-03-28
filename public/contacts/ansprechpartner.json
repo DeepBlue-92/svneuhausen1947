@@ -56,24 +56,39 @@
         "role": "Abteilungsleiter",
         "name": "Christian Meier",
         "phone": "0160 / 7732726",
-        "email": "christianmeier9@t-online.de"
+        "email": "christianmeier9@t-online.de",
+        "departments": [
+          "fussball"
+        ]
       },
       {
         "role": "Trainingsleiter Jugend",
         "name": "Gerhard Blaschke",
-        "phone": "0175 3646656"
+        "phone": "0175 3646656",
+        "departments": [
+          "fussball"
+        ]
       },
       {
         "role": "Trainer Senioren",
-        "name": "Valjmir Aljilji"
+        "name": "Valjmir Aljilji",
+        "departments": [
+          "fussball"
+        ]
       },
       {
         "role": "Trainer Senioren",
-        "name": "Jürgen Stadler"
+        "name": "Jürgen Stadler",
+        "departments": [
+          "fussball"
+        ]
       },
       {
         "role": "Trainer Senioren",
-        "name": "Christoph Holland"
+        "name": "Christoph Holland",
+        "departments": [
+          "fussball"
+        ]
       }
     ]
   },
@@ -96,7 +111,10 @@
         "role": "Abteilungsleiter Kumdo",
         "name": "Dennis Saler",
         "phone": "0162 / 4139432",
-        "email": "dennis.saler@gmx.de"
+        "email": "dennis.saler@gmx.de",
+        "departments": [
+          "schwertkampf"
+        ]
       },
       {
         "role": "Abteilungsleiter Tennis",
@@ -107,7 +125,24 @@
         "role": "Abteilungsleiterin Turn dich Fit",
         "name": "Angelika Müller",
         "phone": "08708 / 689",
-        "email": "angelikamueller-4@t-online.de"
+        "email": "angelikamueller-4@t-online.de",
+        "departments": [
+          "turndichfit"
+        ]
+      },
+      {
+        "role": "Sportwart Tennis",
+        "name": "Rüdiger Knyrim",
+        "departments": [
+          "tennis"
+        ]
+      },
+      {
+        "role": "Platzwart & Jugentrainer Tennis",
+        "name": "Markus Biermacher",
+        "departments": [
+          "tennis"
+        ]
       }
     ]
   }
