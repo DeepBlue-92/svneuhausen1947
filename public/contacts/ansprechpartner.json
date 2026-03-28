@@ -4,8 +4,41 @@
     "iconName": "Shield",
     "contacts": [
       {
-        "role": "",
-        "name": ""
+        "role": "1. Vorstand",
+        "name": "Michael Blendl",
+        "phone": "0179 / 7906863",
+        "email": "michael.blendl@gmx.de"
+      },
+      {
+        "role": "2. Vorstand",
+        "name": "Georg Kindsmüller",
+        "phone": "0160 / 8432058"
+      },
+      {
+        "role": "3. Vorstand",
+        "name": "Martin Inderst",
+        "phone": "0171 / 3362732"
+      },
+      {
+        "role": "Erster Kassier",
+        "name": "Claudia Trinkl",
+        "phone": "08708 / 760",
+        "email": "kassenwart@svneuhausen1947.de"
+      },
+      {
+        "role": "Zweiter Kassier",
+        "name": "Georg Stanglmayr",
+        "phone": "0176 / 61550853"
+      },
+      {
+        "role": "Erster Schriftführer",
+        "name": "Robert Anglhuber"
+      },
+      {
+        "role": "Zweiter Schriftführer",
+        "name": "Angelika Müller",
+        "phone": "08708 / 689",
+        "email": "angelikamueller-4@t-online.de"
       }
     ]
   },
