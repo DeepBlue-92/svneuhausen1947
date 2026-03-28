@@ -119,7 +119,11 @@
       {
         "role": "Abteilungsleiter Tennis",
         "name": "Johann Wendl",
-        "phone": "0151 / 52095453"
+        "phone": "0151 / 52095453",
+        "departments": [
+          "tennis"
+        ],
+        "email": "johann.wendl@t-online.de"
       },
       {
         "role": "Abteilungsleiterin Turn dich Fit",
