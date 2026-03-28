@@ -52,6 +52,16 @@
     "status": "approved"
   },
   {
+    "id": "1774710352404",
+    "title": "Test karate termin",
+    "startDate": "2026-03-31",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "location": "Sportgelände",
+    "departmentId": "karate",
+    "status": "approved"
+  },
+  {
     "id": "17681620206249843",
     "title": "Auswärtsspiel gegen TSV Landshut-Auloh",
     "startDate": "2026-04-04",
