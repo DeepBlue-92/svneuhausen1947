@@ -123,7 +123,9 @@
         "departments": [
           "tennis"
         ],
-        "email": "johann.wendl@t-online.de"
+        "email": "johann.wendl@t-online.de",
+        "id": "1zsfyd",
+        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-1zsfyd.jpg"
       },
       {
         "role": "Abteilungsleiterin Turn dich Fit",
@@ -140,7 +142,9 @@
         "departments": [
           "tennis"
         ],
-        "email": "ruediger.kynrim@t-online.de"
+        "email": "ruediger.kynrim@t-online.de",
+        "id": "cigi0a",
+        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-cigi0a.jpg"
       },
       {
         "role": "Platzwart & Jugentrainer Tennis",
@@ -148,7 +152,9 @@
         "departments": [
           "tennis"
         ],
-        "email": "m_biermacher@web.de"
+        "email": "m_biermacher@web.de",
+        "id": "cp9mif",
+        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-cp9mif.jpg"
       }
     ]
   }
