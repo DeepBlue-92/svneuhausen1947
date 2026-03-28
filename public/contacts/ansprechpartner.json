@@ -1,1 +1,41 @@
-
+[
+  {
+    "title": "Vorstandschaft",
+    "iconName": "Shield",
+    "contacts": [
+      {
+        "role": "",
+        "name": ""
+      }
+    ]
+  },
+  {
+    "title": "Finanzen & Verwaltung",
+    "iconName": "FileText",
+    "contacts": []
+  },
+  {
+    "title": "Fußball: Abteilungsleitung & Trainer",
+    "iconName": "Trophy",
+    "contacts": []
+  },
+  {
+    "title": "Weitere Abteilungen",
+    "iconName": "Users",
+    "contacts": [
+      {
+        "role": "Abteilungsleiter Karate",
+        "name": "Manfred Rabl",
+        "phone": "08708 / 1344",
+        "email": "seibukan-karate.neuhausen@t-online.de",
+        "departments": [
+          "karate"
+        ]
+      },
+      {
+        "role": "",
+        "name": ""
+      }
+    ]
+  }
+]
