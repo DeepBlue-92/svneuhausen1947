@@ -52,6 +52,16 @@
     "status": "approved"
   },
   {
+    "id": "1774810400371",
+    "title": "Starkbierfest",
+    "startDate": "2026-04-02",
+    "startTime": "19:00",
+    "endTime": "",
+    "location": "Sportheim Neuhausen",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "17681620206249843",
     "title": "Auswärtsspiel gegen TSV Landshut-Auloh",
     "startDate": "2026-04-04",
