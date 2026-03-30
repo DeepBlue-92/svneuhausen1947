@@ -1,1 +1,32 @@
-
+[
+  {
+    "email": "admin",
+    "role": "admin",
+    "suffix": "0"
+  },
+  {
+    "email": "dennis.saler@gmx.de",
+    "role": "kumdo",
+    "suffix": "1"
+  },
+  {
+    "email": "seibukan-karate.neuhausen@t-online.de",
+    "role": "karate",
+    "suffix": "2"
+  },
+  {
+    "email": "johann.wendl@t-online.de",
+    "role": "tennis",
+    "suffix": "3"
+  },
+  {
+    "email": "ruediger.knyrim@t-online.de",
+    "role": "tennis",
+    "suffix": "4"
+  },
+  {
+    "email": "m_biermacher@web.de",
+    "role": "tennis",
+    "suffix": "5"
+  }
+]
