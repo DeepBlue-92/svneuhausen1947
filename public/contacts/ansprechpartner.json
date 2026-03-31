@@ -61,19 +61,31 @@
       {
         "role": "Trainingsleiter Jugend",
         "name": "Gerhard Blaschke",
-        "phone": "0175 3646656"
+        "phone": "0175 3646656",
+        "departments": [
+          "jugendfussball"
+        ]
       },
       {
         "role": "Trainer Senioren",
-        "name": "Valjmir Aljilji"
+        "name": "Valjmir Aljilji",
+        "departments": [
+          "fussball"
+        ]
       },
       {
         "role": "Trainer Senioren",
-        "name": "Jürgen Stadler"
+        "name": "Jürgen Stadler",
+        "departments": [
+          "fussball"
+        ]
       },
       {
         "role": "Trainer Senioren",
-        "name": "Christoph Holland"
+        "name": "Christoph Holland",
+        "departments": [
+          "fussball"
+        ]
       }
     ]
   },
@@ -96,12 +108,18 @@
         "role": "Abteilungsleiter Kumdo",
         "name": "Dennis Saler",
         "phone": "0162 / 4139432",
-        "email": "dennis.saler@gmx.de"
+        "email": "dennis.saler@gmx.de",
+        "departments": [
+          "kumdo"
+        ]
       },
       {
         "role": "Abteilungsleiter Tennis",
         "name": "Johann Wendl",
-        "phone": "0151 / 52095453"
+        "phone": "0151 / 52095453",
+        "departments": [
+          "tennis"
+        ]
       },
       {
         "role": "Abteilungsleiterin Turn dich Fit",
