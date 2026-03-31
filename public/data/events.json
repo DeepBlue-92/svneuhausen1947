@@ -52,6 +52,16 @@
     "status": "approved"
   },
   {
+    "id": "1774989084956",
+    "title": "Testtermin Karate 2",
+    "startDate": "2026-03-31",
+    "startTime": "21:00",
+    "endTime": "23:00",
+    "location": "Testort 2",
+    "departmentId": "karate",
+    "status": "approved"
+  },
+  {
     "id": "1774810400371",
     "title": "Starkbierfest",
     "startDate": "2026-04-02",
