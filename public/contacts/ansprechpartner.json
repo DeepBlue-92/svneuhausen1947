@@ -119,7 +119,18 @@
         "phone": "0151 / 52095453",
         "departments": [
           "tennis"
-        ]
+        ],
+        "email": "johann.wendl@t-online.de"
+      },
+      {
+        "role": "Leiter Kinder-/Jugendtraining (Tennis)",
+        "name": "Markus Biermacher",
+        "email": "m_biermacher@web.de"
+      },
+      {
+        "role": "Sportwart Tennis",
+        "name": "Rüdiger Knyrim",
+        "email": "ruediger.knyrim@t-online.de"
       },
       {
         "role": "Abteilungsleiterin Turn dich Fit",
