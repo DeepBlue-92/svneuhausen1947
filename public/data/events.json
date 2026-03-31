@@ -52,6 +52,17 @@
     "status": "approved"
   },
   {
+    "id": "1774988865939",
+    "title": "Karate test",
+    "startDate": "2026-03-31",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "location": "Testort",
+    "departmentId": "karate",
+    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1774988857481_RSM_Werbung_Dina5_halb_.pdf",
+    "status": "approved"
+  },
+  {
     "id": "1774810400371",
     "title": "Starkbierfest",
     "startDate": "2026-04-02",
