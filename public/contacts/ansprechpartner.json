@@ -120,19 +120,31 @@
         "departments": [
           "tennis"
         ],
-        "email": "johann.wendl@t-online.de"
-      },
-      {
-        "role": "Leiter Kinder-/Jugendtraining (Tennis)",
-        "name": "Markus Biermacher",
-        "email": "m_biermacher@web.de",
-        "phone": "01512 / 1052018"
+        "email": "johann.wendl@t-online.de",
+        "id": "inptas",
+        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-inptas.jpg"
       },
       {
         "role": "Sportwart Tennis",
         "name": "Rüdiger Knyrim",
         "email": "ruediger.knyrim@t-online.de",
-        "phone": "01522 / 4109127"
+        "phone": "01522 / 4109127",
+        "departments": [
+          "tennis"
+        ],
+        "id": "yozyep",
+        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-yozyep.jpg"
+      },
+      {
+        "role": "Leiter Kinder-/Jugendtraining (Tennis)",
+        "name": "Markus Biermacher",
+        "email": "m_biermacher@web.de",
+        "phone": "01512 / 1052018",
+        "departments": [
+          "tennis"
+        ],
+        "id": "a86qpu",
+        "imageUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/contacts/images/contact-a86qpu.jpg"
       },
       {
         "role": "Abteilungsleiterin Turn dich Fit",
