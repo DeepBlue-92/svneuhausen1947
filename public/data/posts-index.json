@@ -9,7 +9,8 @@
     "authorId": "admin",
     "author": "admin",
     "status": "approved",
-    "excerpt": "test..."
+    "excerpt": "test...",
+    "deletedAt": "2026-04-03T11:31:56.437Z"
   },
   {
     "id": "1773518162849",
