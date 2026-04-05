@@ -1,9 +1,3 @@
 {
-  "tennis": true,
-  "karate": false,
-  "fussball": true,
-  "jugendfussball": true,
-  "kinderturnen": true,
-  "turndichfit": true,
-  "kumdo": true
+  "karate": true
 }
