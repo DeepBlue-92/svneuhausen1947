@@ -2,7 +2,7 @@
   "tennis": true,
   "karate": false,
   "fussball": true,
-  "jugendfussball": true,
+  "jugendfussball": false,
   "kinderturnen": false,
   "turndichfit": false,
   "kumdo": true
