@@ -1,1 +1,15 @@
-
+[
+  {
+    "startDate": "2026-04-06",
+    "endDate": "2026-04-11",
+    "type": "game",
+    "config": {
+      "opponent": "TSV Baierbach",
+      "date": "2026-04-11",
+      "time1": "14:00",
+      "time2": "16:00",
+      "location": "Stadion am Bräu-Taferl-Weg, Unterneuhausen"
+    },
+    "id": "1775421182873"
+  }
+]
