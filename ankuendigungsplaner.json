@@ -1,18 +1,5 @@
 [
   {
-    "startDate": "2026-04-26",
-    "endDate": "2026-05-03",
-    "type": "game",
-    "config": {
-      "opponent": "TSV Kronwinkl",
-      "date": "2026-05-03",
-      "time1": "15:00",
-      "time2": "17:00",
-      "location": "Sportplatz Weihmichl"
-    },
-    "id": "1775422100316"
-  },
-  {
     "startDate": "2026-04-12",
     "endDate": "2026-04-19",
     "type": "game",
@@ -24,5 +11,18 @@
       "location": "Stadion am Bräu-Taferl-Weg, Unterneuhausen"
     },
     "id": "1775421967092"
+  },
+  {
+    "startDate": "2026-04-26",
+    "endDate": "2026-05-03",
+    "type": "game",
+    "config": {
+      "opponent": "TSV Kronwinkl",
+      "date": "2026-05-03",
+      "time1": "15:00",
+      "time2": "17:00",
+      "location": "Sportplatz Weihmichl"
+    },
+    "id": "1775422100316"
   }
 ]
