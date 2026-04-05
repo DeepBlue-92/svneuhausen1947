@@ -73,11 +73,11 @@
   },
   {
     "id": "17681620206241298",
-    "title": "Auswärtsspiel gegen TSV Baierbach",
+    "title": "Heimspiel gegen TSV Baierbach",
     "startDate": "2026-04-12",
     "startTime": "14:00",
     "endTime": "15:45",
-    "location": "Sportgelände Baierbach",
+    "location": "Sportanlage Neuhausen, Bräu-Taferl-Weg 3, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved"
   },
@@ -85,8 +85,8 @@
     "id": "17681620206242964",
     "title": "Heimspiel gegen SC Buch am Erlbach",
     "startDate": "2026-04-19",
-    "startTime": "14:00",
-    "endTime": "15:45",
+    "startTime": "13:00",
+    "endTime": "14:45",
     "location": "Sportanlage Neuhausen, Bräu-Taferl-Weg 3,84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved"
@@ -95,8 +95,8 @@
     "id": "17681620206242912",
     "title": "Auswärtsspiel gegen TSV Tiefenbach",
     "startDate": "2026-04-25",
-    "startTime": "14:00",
-    "endTime": "15:45",
+    "startTime": "12:00",
+    "endTime": "13:45",
     "location": "Sportanlage Tiefenbach, Am Sportplatz 2 , 84184 Tiefenbach",
     "departmentId": "fussball",
     "status": "approved"
@@ -122,8 +122,8 @@
     "id": "17681620206248258",
     "title": "Heimspiel gegen TSV Kronwinkl",
     "startDate": "2026-05-03",
-    "startTime": "13:00",
-    "endTime": "14:45",
+    "startTime": "15:00",
+    "endTime": "16:45",
     "location": "Sportanlage Weihmichl, Platz 1, Am Pfarranger 5, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved"
