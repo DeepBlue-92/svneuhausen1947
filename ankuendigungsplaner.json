@@ -24,5 +24,18 @@
       "location": "Sportplatz Weihmichl"
     },
     "id": "1775422100316"
+  },
+  {
+    "startDate": "2026-05-04",
+    "endDate": "2026-05-10",
+    "type": "game",
+    "config": {
+      "opponent": "SV LA-Münchnerau",
+      "date": "2026-05-10",
+      "time1": "14:00",
+      "time2": "16:00",
+      "location": ""
+    },
+    "id": "1775422276822"
   }
 ]
