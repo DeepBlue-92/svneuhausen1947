@@ -1,6 +1,6 @@
 {
   "tennis": true,
-  "karate": false,
+  "karate": true,
   "fussball": true,
   "jugendfussball": true
 }
