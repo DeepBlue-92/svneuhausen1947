@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "startDate": "2026-04-12",
+    "endDate": "2026-04-18",
+    "type": "game",
+    "config": {
+      "opponent": "SC Buch am Erlbach",
+      "date": "2026-04-18",
+      "time1": "14:00",
+      "time2": "15:45",
+      "location": "Stadion am Bräu-Taferl-Weg, Unterneuhausen"
+    },
+    "id": "1775421967092"
+  }
+]
