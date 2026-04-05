@@ -4,6 +4,6 @@
   "fussball": true,
   "jugendfussball": true,
   "kinderturnen": false,
-  "turndichfit": true,
+  "turndichfit": false,
   "kumdo": true
 }
