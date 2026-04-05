@@ -3,7 +3,7 @@
   "karate": true,
   "fussball": true,
   "jugendfussball": true,
-  "kinderturnen": false,
+  "kinderturnen": true,
   "turndichfit": true,
   "kumdo": true
 }
