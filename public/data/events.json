@@ -155,6 +155,16 @@
     "status": "approved"
   },
   {
+    "id": "1775422394998",
+    "title": "SV Gündlkofen",
+    "startDate": "2026-05-15",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "location": "Sportanlage Gündlkofen, Dekan-Hort-Str. 42, 84079 Bruckberg",
+    "departmentId": "fussball",
+    "status": "approved"
+  },
+  {
     "id": "tennis-2026-6",
     "title": "Turnier gegen Pfeffenhausen",
     "startDate": "2026-06-01",
