@@ -1,7 +1,7 @@
 {
   "tennis": true,
   "karate": true,
-  "fussball": true,
+  "fussball": false,
   "jugendfussball": true,
   "kinderturnen": true,
   "turndichfit": true,
