@@ -44,6 +44,6 @@
   "tennis": {
     "isVisible": false,
     "sessions": [],
-    "allowDeptAdminEdit": true
+    "allowDeptAdminEdit": false
   }
 }
