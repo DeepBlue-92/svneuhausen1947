@@ -72,6 +72,16 @@
     "status": "approved"
   },
   {
+    "id": "1775485325369",
+    "title": "Saisoneröffnung Tennis",
+    "startDate": "2026-04-07",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "location": "Tennisanlage",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
     "id": "17681620206241298",
     "title": "Auswärtsspiel gegen TSV Baierbach",
     "startDate": "2026-04-12",
