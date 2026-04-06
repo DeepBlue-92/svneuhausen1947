@@ -1,1 +1,25 @@
-
+{
+  "fussball": {
+    "isVisible": false,
+    "sessions": [
+      {
+        "id": "1775500629994",
+        "type": "1. & 2. Mannschaft",
+        "time": "",
+        "location": "Sportplatz Neuhausen/Weihmichl",
+        "schedules": [
+          {
+            "day": "Di",
+            "startTime": "19:00",
+            "endTime": "21:00"
+          },
+          {
+            "day": "Do",
+            "startTime": "19:00",
+            "endTime": "21:00"
+          }
+        ]
+      }
+    ]
+  }
+}
