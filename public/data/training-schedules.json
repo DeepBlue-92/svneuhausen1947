@@ -38,6 +38,6 @@
   "jugendfussball": {
     "isVisible": false,
     "sessions": [],
-    "allowDeptAdminEdit": true
+    "allowDeptAdminEdit": false
   }
 }
