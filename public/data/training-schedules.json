@@ -1,6 +1,6 @@
 {
   "karate": {
-    "isVisible": true,
+    "isVisible": false,
     "sessions": [
       {
         "id": "1775425769499",
@@ -11,14 +11,7 @@
     ]
   },
   "fussball": {
-    "isVisible": false,
-    "sessions": [
-      {
-        "id": "1775487410430",
-        "type": "1. Mannschaft",
-        "time": "Di & Do 19:00 - 21:00",
-        "location": ""
-      }
-    ]
+    "isVisible": true,
+    "sessions": []
   }
 }
