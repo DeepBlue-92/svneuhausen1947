@@ -40,5 +40,10 @@
     "isVisible": false,
     "sessions": [],
     "allowDeptAdminEdit": false
+  },
+  "tennis": {
+    "isVisible": false,
+    "sessions": [],
+    "allowDeptAdminEdit": true
   }
 }
