@@ -12,6 +12,13 @@
   },
   "fussball": {
     "isVisible": true,
-    "sessions": []
+    "sessions": [
+      {
+        "id": "1775499277125",
+        "type": "Test",
+        "time": "Di, 19:00 Uhr",
+        "location": ""
+      }
+    ]
   }
 }
