@@ -1,6 +1,6 @@
 {
   "karate": {
-    "isVisible": false,
+    "isVisible": true,
     "sessions": [
       {
         "id": "1775425769499",
