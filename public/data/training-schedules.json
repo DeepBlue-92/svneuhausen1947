@@ -34,5 +34,9 @@
         ]
       }
     ]
+  },
+  "jugendfussball": {
+    "isVisible": true,
+    "sessions": []
   }
 }
