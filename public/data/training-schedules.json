@@ -33,7 +33,8 @@
           }
         ]
       }
-    ]
+    ],
+    "allowDeptAdminEdit": true
   },
   "jugendfussball": {
     "isVisible": false,
