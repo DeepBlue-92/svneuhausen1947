@@ -12,6 +12,13 @@
   },
   "fussball": {
     "isVisible": true,
-    "sessions": []
+    "sessions": [
+      {
+        "id": "1775487463616",
+        "type": "1. Mannschaft",
+        "time": "19:00-21:00",
+        "location": ""
+      }
+    ]
   }
 }
