@@ -4,7 +4,7 @@
     "sessions": [
       {
         "id": "1775500629994",
-        "type": "1. & 2. Mannschaft",
+        "type": "Senioren",
         "time": "",
         "location": "Sportplatz Neuhausen/Weihmichl",
         "schedules": [
@@ -16,6 +16,19 @@
           {
             "day": "Do",
             "startTime": "19:00",
+            "endTime": "21:00"
+          }
+        ]
+      },
+      {
+        "id": "1775500745498",
+        "type": "Alte Herren",
+        "time": "",
+        "location": "Sportplatz Neuhausen",
+        "schedules": [
+          {
+            "day": "Di",
+            "startTime": "19:30",
             "endTime": "21:00"
           }
         ]
