@@ -52,6 +52,16 @@
     "status": "approved"
   },
   {
+    "id": "1775910728175",
+    "title": "Test Karate",
+    "startDate": "2026-04-01",
+    "startTime": "18:00",
+    "endTime": "18:00",
+    "location": "Turnhalle",
+    "departmentId": "karate",
+    "status": "approved"
+  },
+  {
     "id": "1774810400371",
     "title": "Starkbierfest",
     "startDate": "2026-04-02",
