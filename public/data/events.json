@@ -102,6 +102,16 @@
     "status": "approved"
   },
   {
+    "id": "1775912822304",
+    "title": "Testtermin karate 3",
+    "startDate": "2026-04-22",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "location": "Sportgelände",
+    "departmentId": "karate",
+    "status": "approved"
+  },
+  {
     "id": "17681620206242912",
     "title": "Auswärtsspiel gegen TSV Tiefenbach",
     "startDate": "2026-04-25",
