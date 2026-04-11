@@ -27,9 +27,9 @@
         "location": "Sportplatz Neuhausen",
         "schedules": [
           {
-            "day": "Di",
-            "startTime": "19:30",
-            "endTime": "21:00"
+            "day": "Fr",
+            "startTime": "18:30",
+            "endTime": "20:00"
           }
         ]
       }
