@@ -92,16 +92,6 @@
     "status": "approved"
   },
   {
-    "id": "1775912463757",
-    "title": "Testtermin Karate 2",
-    "startDate": "2026-04-13",
-    "startTime": "18:00",
-    "endTime": "19:00",
-    "location": "Sportgelände",
-    "departmentId": "karate",
-    "status": "approved"
-  },
-  {
     "id": "17681620206242964",
     "title": "Heimspiel gegen SC Buch am Erlbach",
     "startDate": "2026-04-19",
