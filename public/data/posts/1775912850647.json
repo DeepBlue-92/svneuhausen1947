@@ -1,7 +1,6 @@
 {
   "id": "1775912850647",
   "title": "Testbeitrag Karate 3",
-  "content": "Test",
   "imageUrl": "",
   "pdfUrl": "",
   "date": "2026-04-11T00:00:00.000Z",
@@ -9,5 +8,6 @@
   "authorId": "seibukan-karate.neuhausen@t-online.de",
   "author": "seibukan-karate.neuhausen",
   "status": "approved",
-  "excerpt": "Test..."
+  "excerpt": "Test...",
+  "deletedAt": "2026-04-11T13:08:18.046Z"
 }
