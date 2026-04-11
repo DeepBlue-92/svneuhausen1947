@@ -72,6 +72,17 @@
     "status": "approved"
   },
   {
+    "id": "1775909340425",
+    "title": "Testtermin 11.04.",
+    "startDate": "2026-04-11",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "location": "Testort",
+    "departmentId": "karate",
+    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1775909335462_Example_Document.pdf",
+    "status": "approved"
+  },
+  {
     "id": "17681620206241298",
     "title": "Auswärtsspiel gegen TSV Baierbach",
     "startDate": "2026-04-12",
