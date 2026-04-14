@@ -42,7 +42,7 @@
     "allowDeptAdminEdit": false
   },
   "tennis": {
-    "isVisible": false,
+    "isVisible": true,
     "sessions": [],
     "allowDeptAdminEdit": false
   },
