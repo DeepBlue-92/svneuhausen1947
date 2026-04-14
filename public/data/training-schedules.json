@@ -47,7 +47,7 @@
     "allowDeptAdminEdit": false
   },
   "karate": {
-    "isVisible": false,
+    "isVisible": true,
     "sessions": [],
     "allowDeptAdminEdit": false
   },
