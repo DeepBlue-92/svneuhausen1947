@@ -172,7 +172,21 @@
   },
   "kumdo": {
     "isVisible": true,
-    "sessions": [],
+    "sessions": [
+      {
+        "id": "1776202991627",
+        "type": "Erwachsene & Jugendliche ab 14 Jahren",
+        "time": "",
+        "location": "Turnhalle Unterneuhausen",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "19:15",
+            "endTime": "20:45"
+          }
+        ]
+      }
+    ],
     "allowDeptAdminEdit": true
   },
   "kinderturnen": {
