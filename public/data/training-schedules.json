@@ -50,5 +50,9 @@
     "isVisible": false,
     "sessions": [],
     "allowDeptAdminEdit": false
+  },
+  "kumdo": {
+    "isVisible": true,
+    "sessions": []
   }
 }
