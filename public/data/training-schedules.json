@@ -49,7 +49,7 @@
   "karate": {
     "isVisible": true,
     "sessions": [],
-    "allowDeptAdminEdit": false
+    "allowDeptAdminEdit": true
   },
   "kumdo": {
     "isVisible": true,
