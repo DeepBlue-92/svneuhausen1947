@@ -43,7 +43,91 @@
   },
   "tennis": {
     "isVisible": false,
-    "sessions": [],
+    "sessions": [
+      {
+        "id": "1776201882946",
+        "type": "Damentraining",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Mo",
+            "startTime": "17:00",
+            "endTime": "20:00"
+          }
+        ]
+      },
+      {
+        "id": "1776201911886",
+        "type": "Offener Spieltag",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Di",
+            "startTime": "17:00",
+            "endTime": "20:00"
+          },
+          {
+            "day": "Fr",
+            "startTime": "15:00",
+            "endTime": "20:00"
+          }
+        ]
+      },
+      {
+        "id": "1776201930718",
+        "type": "Seniorentennis",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "08:30",
+            "endTime": "11:30"
+          }
+        ]
+      },
+      {
+        "id": "1776201957117",
+        "type": "Tenniskindergarten",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "16:00",
+            "endTime": "17:00"
+          }
+        ]
+      },
+      {
+        "id": "1776202110847",
+        "type": "Kinder- und Jugendtraining",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "17:00",
+            "endTime": "18:00"
+          }
+        ]
+      },
+      {
+        "id": "1776202124824",
+        "type": "Herrentraining",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "17:00",
+            "endTime": "18:00"
+          }
+        ]
+      }
+    ],
     "allowDeptAdminEdit": false
   },
   "karate": {
