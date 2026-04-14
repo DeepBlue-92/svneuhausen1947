@@ -140,7 +140,34 @@
   },
   "karate": {
     "isVisible": true,
-    "sessions": [],
+    "sessions": [
+      {
+        "id": "1776202697050",
+        "type": "Jugendliche & Erwachsene (Anfänger/Mittelstufe)",
+        "time": "",
+        "location": "Turnhalle Unterneuhausen",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "18:45",
+            "endTime": "19:45"
+          }
+        ]
+      },
+      {
+        "id": "1776202749425",
+        "type": "Jugendliche & Erwachsene (Fortgeschrittene)",
+        "time": "",
+        "location": "Turnhalle Unterneuhausen",
+        "schedules": [
+          {
+            "day": "Mo",
+            "startTime": "19:45",
+            "endTime": "20:45"
+          }
+        ]
+      }
+    ],
     "allowDeptAdminEdit": true
   },
   "kumdo": {
