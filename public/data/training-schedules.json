@@ -59,5 +59,9 @@
   "turndichfit": {
     "isVisible": true,
     "sessions": []
+  },
+  "kinderturnen": {
+    "isVisible": true,
+    "sessions": []
   }
 }
