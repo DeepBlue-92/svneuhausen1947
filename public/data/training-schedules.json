@@ -177,7 +177,39 @@
   },
   "kinderturnen": {
     "isVisible": true,
-    "sessions": []
+    "sessions": [
+      {
+        "id": "1776202803906",
+        "type": "Kinder von 5 bis 6 Jahren",
+        "time": "",
+        "location": "Turnhalle Unterneuhausen",
+        "schedules": [
+          {
+            "day": "Mo",
+            "startTime": "16:30",
+            "endTime": "17:30"
+          }
+        ]
+      },
+      {
+        "id": "1776202932643",
+        "type": "Kinder von 2 bis 4 Jahren",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Mi",
+            "startTime": "16:00",
+            "endTime": "17:00"
+          },
+          {
+            "day": "Fr",
+            "startTime": "15:30",
+            "endTime": "16:30"
+          }
+        ]
+      }
+    ]
   },
   "turndichfit": {
     "isVisible": true,
