@@ -227,6 +227,33 @@
   },
   "turndichfit": {
     "isVisible": true,
-    "sessions": []
+    "sessions": [
+      {
+        "id": "1776203045003",
+        "type": "Fitness für Alle",
+        "time": "",
+        "location": "Turnhalle Unterneuhausen",
+        "schedules": [
+          {
+            "day": "Di",
+            "startTime": "19:00",
+            "endTime": "20:00"
+          }
+        ]
+      },
+      {
+        "id": "1776203061948",
+        "type": "Yoga",
+        "time": "",
+        "location": "Turnhalle Unterneuhausen",
+        "schedules": [
+          {
+            "day": "Do",
+            "startTime": "18:00",
+            "endTime": "19:00"
+          }
+        ]
+      }
+    ]
   }
 }
