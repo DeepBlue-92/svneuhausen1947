@@ -67,11 +67,6 @@
             "day": "Di",
             "startTime": "17:00",
             "endTime": "20:00"
-          },
-          {
-            "day": "Fr",
-            "startTime": "15:00",
-            "endTime": "20:00"
           }
         ]
       },
@@ -124,6 +119,19 @@
             "day": "Mi",
             "startTime": "17:00",
             "endTime": "18:00"
+          }
+        ]
+      },
+      {
+        "id": "1776202218576",
+        "type": "Offener Spieltag",
+        "time": "",
+        "location": "",
+        "schedules": [
+          {
+            "day": "Fr",
+            "startTime": "17:00",
+            "endTime": "20:00"
           }
         ]
       }
