@@ -151,5 +151,9 @@
   "kinderturnen": {
     "isVisible": true,
     "sessions": []
+  },
+  "turndichfit": {
+    "isVisible": true,
+    "sessions": []
   }
 }
