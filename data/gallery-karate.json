@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "Allgemein"
+    }
+  ],
+  "images": [
+    {
+      "id": "img_1776367459406_rkn9r",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367459406_rkn9r.jpg",
+      "caption": ""
+    },
+    {
+      "id": "img_1776367460904_riyfl",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367460904_riyfl.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776367462601_eij0t",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367462601_eij0t.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776367464083_cfh5f",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367464083_cfh5f.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776367465808_z5lhx",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367465808_z5lhx.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776367467701_onge1",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367467701_onge1.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776367467033_p15j1",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/karate/img_1776367467033_p15j1.jpg",
+      "caption": ""
+    }
+  ]
+}
