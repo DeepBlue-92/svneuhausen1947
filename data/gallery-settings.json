@@ -1,12 +1,17 @@
 {
   "fussball": {
-    "isPublic": false,
-    "canDeptHeadEdit": false,
+    "isPublic": true,
+    "canDeptHeadEdit": true,
     "displayMode": "carousel"
   },
   "tennis": {
     "isPublic": true,
     "canDeptHeadEdit": false,
+    "displayMode": "carousel"
+  },
+  "karate": {
+    "isPublic": true,
+    "canDeptHeadEdit": true,
     "displayMode": "carousel"
   }
 }
