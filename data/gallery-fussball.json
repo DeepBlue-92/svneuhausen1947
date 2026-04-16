@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "Allgemein"
+    }
+  ],
+  "images": [
+    {
+      "id": "img_1776369030372_hlw7t",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/fussball/img_1776369030372_hlw7t.jpg",
+      "caption": ""
+    },
+    {
+      "id": "img_1776369031855_5b5qo",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/fussball/img_1776369031855_5b5qo.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776369033374_ijnsw",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/fussball/img_1776369033374_ijnsw.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776369035012_8zmav",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/fussball/img_1776369035012_8zmav.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776369036776_sw0xf",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/fussball/img_1776369036776_sw0xf.png",
+      "caption": ""
+    },
+    {
+      "id": "img_1776369038390_fu07d",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/fussball/img_1776369038390_fu07d.png",
+      "caption": ""
+    }
+  ]
+}
