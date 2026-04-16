@@ -3,24 +3,28 @@
     {
       "id": "general",
       "name": "Allgemein"
+    },
+    {
+      "id": "category_1776382409205",
+      "name": "test"
     }
   ],
   "images": [
     {
       "id": "img_1776367459406_rkn9r",
-      "categoryId": "general",
+      "categoryId": "category_1776382409205",
       "imageUrl": "/img/galerie/karate/img_1776367459406_rkn9r.jpg",
       "caption": ""
     },
     {
       "id": "img_1776367460904_riyfl",
-      "categoryId": "general",
+      "categoryId": "category_1776382409205",
       "imageUrl": "/img/galerie/karate/img_1776367460904_riyfl.png",
       "caption": ""
     },
     {
       "id": "img_1776367462601_eij0t",
-      "categoryId": "general",
+      "categoryId": "category_1776382409205",
       "imageUrl": "/img/galerie/karate/img_1776367462601_eij0t.png",
       "caption": ""
     },
