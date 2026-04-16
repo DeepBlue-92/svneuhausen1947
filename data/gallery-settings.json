@@ -1,7 +1,12 @@
 {
   "fussball": {
     "isPublic": false,
-    "canDeptHeadEdit": true,
+    "canDeptHeadEdit": false,
+    "displayMode": "carousel"
+  },
+  "tennis": {
+    "isPublic": true,
+    "canDeptHeadEdit": false,
     "displayMode": "carousel"
   }
 }
