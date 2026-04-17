@@ -5,5 +5,18 @@
       "name": "Allgemein"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img_1776455665521_uhubq",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/tennis/img_1776455665521_uhubq.jpg",
+      "caption": "Tennisanlage im April 2026"
+    },
+    {
+      "id": "img_1776455666943_mv8my",
+      "categoryId": "general",
+      "imageUrl": "/img/galerie/tennis/img_1776455666943_mv8my.jpg",
+      "caption": "Tennisheim"
+    }
+  ]
 }
