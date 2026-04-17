@@ -10,37 +10,43 @@
       "id": "img_1776369030372_hlw7t",
       "categoryId": "general",
       "imageUrl": "/img/galerie/fussball/img_1776369030372_hlw7t.jpg",
-      "caption": ""
+      "caption": "",
+      "deletedAt": 1776435699618
     },
     {
       "id": "img_1776369031855_5b5qo",
       "categoryId": "general",
       "imageUrl": "/img/galerie/fussball/img_1776369031855_5b5qo.png",
-      "caption": ""
+      "caption": "",
+      "deletedAt": 1776435706872
     },
     {
       "id": "img_1776369033374_ijnsw",
       "categoryId": "general",
       "imageUrl": "/img/galerie/fussball/img_1776369033374_ijnsw.png",
-      "caption": ""
+      "caption": "",
+      "deletedAt": 1776435707455
     },
     {
       "id": "img_1776369035012_8zmav",
       "categoryId": "general",
       "imageUrl": "/img/galerie/fussball/img_1776369035012_8zmav.png",
-      "caption": ""
+      "caption": "",
+      "deletedAt": 1776435707970
     },
     {
       "id": "img_1776369036776_sw0xf",
       "categoryId": "general",
       "imageUrl": "/img/galerie/fussball/img_1776369036776_sw0xf.png",
-      "caption": ""
+      "caption": "",
+      "deletedAt": 1776435708435
     },
     {
       "id": "img_1776369038390_fu07d",
       "categoryId": "general",
       "imageUrl": "/img/galerie/fussball/img_1776369038390_fu07d.png",
-      "caption": ""
+      "caption": "",
+      "deletedAt": 1776435708940
     }
   ]
 }
