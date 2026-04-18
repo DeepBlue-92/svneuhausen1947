@@ -1,6 +1,6 @@
 {
   "fussball": {
-    "isVisible": false,
+    "isVisible": true,
     "sessions": [
       {
         "id": "1775500629994",
