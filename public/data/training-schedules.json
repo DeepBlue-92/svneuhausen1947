@@ -37,7 +37,7 @@
     "allowDeptAdminEdit": false
   },
   "jugendfussball": {
-    "isVisible": true,
+    "isVisible": false,
     "sessions": [],
     "allowDeptAdminEdit": false
   },
