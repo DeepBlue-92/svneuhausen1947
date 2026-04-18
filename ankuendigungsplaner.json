@@ -1,18 +1,5 @@
 [
   {
-    "startDate": "2026-04-12",
-    "endDate": "2026-04-19",
-    "type": "game",
-    "config": {
-      "opponent": "SC Buch am Erlbach",
-      "date": "2026-04-18",
-      "time1": "14:00",
-      "time2": "16:00",
-      "location": "Stadion am Bräu-Taferl-Weg, Unterneuhausen"
-    },
-    "id": "1775421967092"
-  },
-  {
     "startDate": "2026-04-26",
     "endDate": "2026-05-03",
     "type": "game",
@@ -37,5 +24,18 @@
       "location": ""
     },
     "id": "1775422276822"
+  },
+  {
+    "startDate": "2026-04-12",
+    "endDate": "2026-04-19",
+    "type": "game",
+    "config": {
+      "opponent": "SC Buch am Erlbach",
+      "date": "2026-04-19",
+      "time1": "14:00",
+      "time2": "16:00",
+      "location": "Stadion am Bräu-Taferl-Weg, Unterneuhausen"
+    },
+    "id": "1775421967092"
   }
 ]
