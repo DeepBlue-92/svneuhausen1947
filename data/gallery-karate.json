@@ -11,12 +11,6 @@
   ],
   "images": [
     {
-      "id": "img_1776551652683_20d75",
-      "categoryId": "category_1776382409205",
-      "imageUrl": "/img/galerie/karate/img_1776551652683_20d75.png",
-      "caption": ""
-    },
-    {
       "id": "img_1776551647757_pxdez",
       "categoryId": "general",
       "imageUrl": "/img/galerie/karate/img_1776551647757_pxdez.jpg",
@@ -30,32 +24,11 @@
       "deletedAt": 1776452828179
     },
     {
-      "id": "img_1776435721941_ciry8",
-      "categoryId": "category_1776382409205",
-      "imageUrl": "/img/galerie/karate/img_1776435721941_ciry8.png",
-      "caption": "",
-      "deletedAt": 1776452831779
-    },
-    {
       "id": "img_1776435723510_2q77r",
       "categoryId": "category_1776382409205",
       "imageUrl": "/img/galerie/karate/img_1776435723510_2q77r.png",
       "caption": "",
       "deletedAt": 1776452832202
-    },
-    {
-      "id": "img_1776435725114_tq6oq",
-      "categoryId": "category_1776382409205",
-      "imageUrl": "/img/galerie/karate/img_1776435725114_tq6oq.png",
-      "caption": "",
-      "deletedAt": 1776452832642
-    },
-    {
-      "id": "img_1776435726776_4erej",
-      "categoryId": "general",
-      "imageUrl": "/img/galerie/karate/img_1776435726776_4erej.png",
-      "caption": "",
-      "deletedAt": 1776452829787
     },
     {
       "id": "img_1776435728286_wn06n",
