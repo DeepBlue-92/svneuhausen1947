@@ -7,9 +7,25 @@
     {
       "id": "category_1776598197818",
       "name": "Fukyugata San Lehrgang Garching"
+    },
+    {
+      "id": "category_1776598803851",
+      "name": "Dojo Turnhalle Unterneuhausen"
     }
   ],
   "images": [
+    {
+      "id": "img_1776599161284_m2vw3",
+      "categoryId": "category_1776598803851",
+      "imageUrl": "/img/galerie/karate/img_1776599161284_m2vw3.jpg",
+      "caption": "Gyaku Tsuki - Umgekehrter Fauststoß"
+    },
+    {
+      "id": "img_1776599163092_jfhhl",
+      "categoryId": "category_1776598803851",
+      "imageUrl": "/img/galerie/karate/img_1776599163092_jfhhl.jpg",
+      "caption": "Shuto Uke - Abwehr mit Messerhand"
+    },
     {
       "id": "img_1776598271275_2de3d",
       "categoryId": "category_1776598197818",
