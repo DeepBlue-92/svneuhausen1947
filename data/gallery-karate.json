@@ -3,7 +3,30 @@
     {
       "id": "general",
       "name": "Allgemein"
+    },
+    {
+      "id": "category_1776598197818",
+      "name": "Fukyugata San Lehrgang Garching"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "id": "img_1776598271275_2de3d",
+      "categoryId": "category_1776598197818",
+      "imageUrl": "/img/galerie/karate/img_1776598271275_2de3d.jpg",
+      "caption": ""
+    },
+    {
+      "id": "img_1776598272835_7a6kp",
+      "categoryId": "category_1776598197818",
+      "imageUrl": "/img/galerie/karate/img_1776598272835_7a6kp.jpg",
+      "caption": ""
+    },
+    {
+      "id": "img_1776598274377_vcb5j",
+      "categoryId": "category_1776598197818",
+      "imageUrl": "/img/galerie/karate/img_1776598274377_vcb5j.jpg",
+      "caption": "Trainigs-Gruppe"
+    }
+  ]
 }
