@@ -12,6 +12,7 @@
   "karate": {
     "isPublic": true,
     "canDeptHeadEdit": true,
-    "displayMode": "carousel"
+    "displayMode": "carousel",
+    "visibleCategoriesCount": 3
   }
 }
