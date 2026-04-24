@@ -136,7 +136,7 @@
         ]
       }
     ],
-    "allowDeptAdminEdit": false
+    "allowDeptAdminEdit": true
   },
   "karate": {
     "isVisible": true,
