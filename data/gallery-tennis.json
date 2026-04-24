@@ -1,6 +1,10 @@
 {
   "categories": [
     {
+      "id": "category_1777055720322",
+      "name": "Test"
+    },
+    {
       "id": "general",
       "name": "Allgemein"
     }
