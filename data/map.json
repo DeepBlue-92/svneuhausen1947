@@ -1,9 +1,20 @@
-[
-  {
-    "id": "loc-1777148159447",
-    "name": "SV Oberglaim",
-    "address": "Oberglaimer Alm, Oberglaim, Ergolding, Landkreis Landshut, Bayern, 84030, Deutschland",
-    "lat": 48.6111261,
-    "lng": 12.1164249
-  }
-]
+{
+  "leagueName": "Kreisklasse Landshut",
+  "season": "2024/25",
+  "locations": [
+    {
+      "id": "loc-1777150632196",
+      "name": "SV Gündlkofen",
+      "address": "Dekan-Hort-Straße, Gündlkofen, Bruckberg, Landkreis Landshut, Bayern, 84079, Deutschland",
+      "lat": 48.5335229,
+      "lng": 12.0329443
+    },
+    {
+      "id": "loc-1777148159447",
+      "name": "SV Oberglaim",
+      "address": "Oberglaimer Alm, Oberglaim, Ergolding, Landkreis Landshut, Bayern, 84030, Deutschland",
+      "lat": 48.6111261,
+      "lng": 12.1164249
+    }
+  ]
+}
