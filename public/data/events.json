@@ -160,9 +160,18 @@
     "startDate": "2026-05-15",
     "startTime": "16:00",
     "endTime": "18:00",
-    "location": "Sportanlage Gündlkofen, Dekan-Hort-Str. 42, 84079 Bruckberg",
+    "location": "Dekan-Hort-Straße, Antloh, Gündlkofen, Bruckberg, Landkreis Landshut, Bayern, 84079, Deutschland",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "away",
+    "locationType": "neuhausen",
+    "locationDetails": {
+      "name": "Dekan-Hort-Straße",
+      "address": "Dekan-Hort-Straße, Antloh, Gündlkofen, Bruckberg, Landkreis Landshut, Bayern, 84079, Deutschland",
+      "lat": 48.5335229,
+      "lng": 12.0329443
+    },
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "tennis-2026-6",
