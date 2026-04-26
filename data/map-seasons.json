@@ -2,6 +2,11 @@
   {
     "id": "season-1777239324127",
     "name": "Kreisklasse 2025/26",
+    "isActive": false
+  },
+  {
+    "id": "season-1777239385820",
+    "name": "Kreisklasse 2024/25",
     "isActive": true
   }
 ]
