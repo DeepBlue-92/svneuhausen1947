@@ -124,11 +124,12 @@
     "startDate": "2026-05-03",
     "startTime": "15:00",
     "endTime": "16:45",
-    "location": "Sportanlage Unterneuhausen, 84085 Weihmichl",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
-    "locationType": "neuhausen"
+    "locationType": "neuhausen",
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "tennis-2026-3",
