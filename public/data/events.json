@@ -157,7 +157,8 @@
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
-    "locationType": "neuhausen"
+    "locationType": "neuhausen",
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "1775422394998",
