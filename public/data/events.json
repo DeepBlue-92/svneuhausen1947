@@ -124,9 +124,11 @@
     "startDate": "2026-05-03",
     "startTime": "15:00",
     "endTime": "16:45",
-    "location": "Sportanlage Weihmichl, Am Pfarranger 5, 84107 Weihmichl",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "home",
+    "locationType": "weihmichl"
   },
   {
     "id": "tennis-2026-3",
