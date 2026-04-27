@@ -93,7 +93,7 @@
   },
   {
     "id": "17681620206242912",
-    "title": "Auswärtsspiel gegen TSV Tiefenbach",
+    "title": "TSV Tiefenbach - SV Neuhausen",
     "startDate": "2026-04-25",
     "startTime": "14:00",
     "endTime": "15:45",
@@ -101,12 +101,14 @@
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "away",
+    "opponent": "TSV Tiefenbach",
     "locationDetails": {
       "name": "2",
       "address": "Am Sportplatz 2, 84184 Tiefenbach",
       "lat": 48.5105466,
       "lng": 12.0941013
-    }
+    },
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "tennis-2026-2",
