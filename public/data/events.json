@@ -97,9 +97,16 @@
     "startDate": "2026-04-25",
     "startTime": "14:00",
     "endTime": "15:45",
-    "location": "Sportanlage Tiefenbach, Am Sportplatz 2, 84184 Tiefenbach",
+    "location": "Am Sportplatz 2, 84184 Tiefenbach",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "away",
+    "locationDetails": {
+      "name": "2",
+      "address": "Am Sportplatz 2, 84184 Tiefenbach",
+      "lat": 48.5105466,
+      "lng": 12.0941013
+    }
   },
   {
     "id": "tennis-2026-2",
