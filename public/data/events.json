@@ -73,13 +73,22 @@
   },
   {
     "id": "17681620206241298",
-    "title": "Auswärtsspiel gegen TSV Baierbach",
+    "title": "TSV Baierbach - SV Neuhausen",
     "startDate": "2026-04-12",
     "startTime": "14:00",
     "endTime": "15:45",
-    "location": "TSV Baierbach 1968 e. V., Jägerstraße 11 84171 Baierbach",
+    "location": "Jägerstraße 11, 84171 Baierbach",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "TSV Baierbach",
+    "locationDetails": {
+      "name": "11",
+      "address": "Jägerstraße 11, 84171 Baierbach",
+      "lat": 48.4211197,
+      "lng": 12.212286
+    },
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "17681620206242964",
