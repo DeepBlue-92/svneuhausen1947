@@ -129,7 +129,7 @@
   },
   {
     "id": "17681620206248258",
-    "title": "Heimspiel gegen TSV Kronwinkl",
+    "title": "SV Neuhausen - TSV Kronwinkl",
     "startDate": "2026-05-03",
     "startTime": "15:00",
     "endTime": "16:45",
@@ -137,6 +137,7 @@
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
+    "opponent": "TSV Kronwinkl",
     "locationType": "neuhausen",
     "seasonId": "season-1777239324127"
   },
