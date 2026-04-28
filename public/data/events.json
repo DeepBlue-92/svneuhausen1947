@@ -46,13 +46,22 @@
   },
   {
     "id": "17681620206240589",
-    "title": "Auswärtsspiel gegen SV Oberglaim",
+    "title": "SV Oberglaim - SV Neuhausen",
     "startDate": "2026-03-29",
     "startTime": "14:00",
     "endTime": "15:45",
-    "location": "Oberglaimer Alm, Oberglaimer Alm 1, 84030 Ergolding",
+    "location": "Oberglaimer Alm 1, 84030 Ergolding",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "SV Oberglaim",
+    "locationDetails": {
+      "name": "Oberglaimer Alm",
+      "address": "Oberglaimer Alm 1, 84030 Ergolding",
+      "lat": 48.6111261,
+      "lng": 12.1164249
+    },
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "1774810400371",
