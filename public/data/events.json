@@ -83,13 +83,17 @@
   },
   {
     "id": "17681620206242964",
-    "title": "Heimspiel gegen SC Buch am Erlbach",
+    "title": "SV Neuhausen - SC Buch am Erlbach",
     "startDate": "2026-04-19",
     "startTime": "14:00",
     "endTime": "15:45",
-    "location": "Bräu-Taferl-Weg 3,84107 Weihmichl",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "home",
+    "opponent": "SC Buch am Erlbach",
+    "locationType": "neuhausen",
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "17681620206242912",
