@@ -133,12 +133,12 @@
     "startDate": "2026-05-03",
     "startTime": "15:00",
     "endTime": "16:45",
-    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
+    "location": "Am Pfarranger 5, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
     "opponent": "TSV Kronwinkl",
-    "locationType": "neuhausen",
+    "locationType": "weihmichl",
     "seasonId": "season-1777239324127"
   },
   {
