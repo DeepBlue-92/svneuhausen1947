@@ -75,13 +75,22 @@
   },
   {
     "id": "17681620206249843",
-    "title": "Auswärtsspiel gegen TSV Landshut-Auloh",
+    "title": "TSV Landshut Auloh - SV Neuhausen",
     "startDate": "2026-04-04",
     "startTime": "12:00",
     "endTime": "13:45",
-    "location": "Sportanlage Auloh, Duniwang 3a, 84036 Landshut",
+    "location": "Duniwang 3a, 84036 Landshut",
     "departmentId": "fussball",
-    "status": "approved"
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "TSV Landshut Auloh",
+    "locationDetails": {
+      "name": "Sportheim TSV Landshut-Auloh",
+      "address": "Duniwang 3a, 84036 Landshut",
+      "lat": 48.5686487,
+      "lng": 12.219119
+    },
+    "seasonId": "season-1777239324127"
   },
   {
     "id": "17681620206241298",
