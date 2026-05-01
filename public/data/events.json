@@ -1,5 +1,22 @@
 [
   {
+    "id": "1777673278476",
+    "title": "Neufraunhofen II - SV Neuhausen",
+    "startDate": "2025-07-26",
+    "location": "Wambacher Straße 33, 84181 Asbach",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "Neufraunhofen II",
+    "locationDetails": {
+      "name": "Sportheim",
+      "address": "Wambacher Straße 33, 84181 Asbach",
+      "lat": 48.3847376,
+      "lng": 12.1980395
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
     "id": "1770558977720",
     "title": "Tennis-Hallenturnier",
     "startDate": "2026-02-07",
