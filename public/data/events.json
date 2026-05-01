@@ -56,12 +56,13 @@
   },
   {
     "id": "1777673867648",
-    "title": "SV Oberglaim",
+    "title": "SV Neuhausen - SV Oberglaim",
     "startDate": "2025-08-31",
     "location": "Am Pfarranger 5, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
+    "opponent": "SV Oberglaim",
     "locationType": "weihmichl"
   },
   {
