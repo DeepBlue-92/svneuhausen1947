@@ -1,12 +1,13 @@
 [
   {
     "id": "1777673478845",
-    "title": "SC Landshut Berg",
+    "title": "SV Neuhausen - SC Landshut Berg",
     "startDate": "2025-08-03",
     "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
+    "opponent": "SC Landshut Berg",
     "locationType": "neuhausen"
   },
   {
