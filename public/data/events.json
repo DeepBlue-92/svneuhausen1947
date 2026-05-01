@@ -67,6 +67,18 @@
     "locationType": "weihmichl"
   },
   {
+    "id": "1777674021398",
+    "title": "SV Neuhausen - TSV Landshut-Auloh",
+    "startDate": "2025-09-09",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "home",
+    "opponent": "TSV Landshut-Auloh",
+    "locationType": "neuhausen",
+    "seasonId": "season-1777239324127"
+  },
+  {
     "id": "1770558977720",
     "title": "Tennis-Hallenturnier",
     "startDate": "2026-02-07",
