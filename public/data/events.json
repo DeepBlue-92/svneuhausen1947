@@ -80,12 +80,13 @@
   },
   {
     "id": "1777674141335",
-    "title": "SC Buch am Erlbach",
+    "title": "SC Buch am Erlbach - SV Neuhausen",
     "startDate": "2025-09-20",
     "location": "Schulstraße 6, 84172 Niedererlbach",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "away",
+    "opponent": "SC Buch am Erlbach",
     "locationDetails": {
       "name": "Kindergarten St. Irmengard",
       "address": "Schulstraße 6, 84172 Niedererlbach",
