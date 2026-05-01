@@ -29,12 +29,13 @@
   },
   {
     "id": "1777673702054",
-    "title": "TSV Kirchberg",
+    "title": "SV Neuhausen - TSV Kirchberg",
     "startDate": "2025-08-15",
     "location": "Am Pfarranger 5, 84107 Weihmichl",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
+    "opponent": "TSV Kirchberg",
     "locationType": "weihmichl"
   },
   {
