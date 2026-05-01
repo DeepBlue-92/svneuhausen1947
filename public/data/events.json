@@ -28,6 +28,16 @@
     "seasonId": "season-1777239324127"
   },
   {
+    "id": "1777673702054",
+    "title": "TSV Kirchberg",
+    "startDate": "2025-08-15",
+    "location": "Am Pfarranger 5, 84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "home",
+    "locationType": "weihmichl"
+  },
+  {
     "id": "1770558977720",
     "title": "Tennis-Hallenturnier",
     "startDate": "2026-02-07",
