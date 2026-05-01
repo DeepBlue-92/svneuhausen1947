@@ -40,12 +40,13 @@
   },
   {
     "id": "1777673778397",
-    "title": "SV Wendelskirchen",
+    "title": "SV Wendelskirchen - SV Neuhausen",
     "startDate": "2025-08-24",
     "location": "Schulweg 8, 84180 Loiching",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "away",
+    "opponent": "SV Wendelskirchen",
     "locationDetails": {
       "name": "8",
       "address": "Schulweg 8, 84180 Loiching",
