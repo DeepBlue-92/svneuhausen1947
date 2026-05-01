@@ -107,6 +107,22 @@
     "seasonId": "season-1777239324127"
   },
   {
+    "id": "1777674499287",
+    "title": "SV Landshut-Münchnerau",
+    "startDate": "2025-10-01",
+    "location": "Am Eisweiher 30, 84034 Landshut",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "locationDetails": {
+      "name": "30",
+      "address": "Am Eisweiher 30, 84034 Landshut",
+      "lat": 48.5288464,
+      "lng": 12.0880352
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
     "id": "1777674384448",
     "title": "TSV Kronwinkl - SV Neuhausen",
     "startDate": "2025-10-03",
