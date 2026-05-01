@@ -96,12 +96,13 @@
   },
   {
     "id": "1777674189432",
-    "title": "TSV Tiefenbach",
+    "title": "SV Neuhausen - TSV Tiefenbach",
     "startDate": "2025-09-27",
     "location": "Sportgelände",
     "departmentId": "fussball",
     "status": "approved",
     "gameType": "home",
+    "opponent": "TSV Tiefenbach",
     "seasonId": "season-1777239324127"
   },
   {
