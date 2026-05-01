@@ -1,5 +1,32 @@
 [
   {
+    "id": "1777673478845",
+    "title": "SC Landshut Berg",
+    "startDate": "2025-08-03",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "home",
+    "locationType": "neuhausen"
+  },
+  {
+    "id": "1777673592158",
+    "title": "TSV Vilslern - SV Neuhausen",
+    "startDate": "2025-08-10",
+    "location": "Dorfstraße 40, 84149 Obervilslern",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "TSV Vilslern",
+    "locationDetails": {
+      "name": "TSV Vilslern",
+      "address": "Dorfstraße 40, 84149 Obervilslern",
+      "lat": 48.3857908,
+      "lng": 12.2704447
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
     "id": "1770558977720",
     "title": "Tennis-Hallenturnier",
     "startDate": "2026-02-07",
@@ -256,16 +283,6 @@
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
-  },
-  {
-    "id": "1777673478845",
-    "title": "SC Landshut Berg",
-    "startDate": "2025-08-03",
-    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "home",
-    "locationType": "neuhausen"
   },
   {
     "id": "tennis-2026-10",
