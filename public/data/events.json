@@ -1,22 +1,5 @@
 [
   {
-    "id": "1777673278476",
-    "title": "Neufraunhofen II - SV Neuhausen",
-    "startDate": "2025-07-26",
-    "location": "Wambacher Straße 33, 84181 Asbach",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "away",
-    "opponent": "Neufraunhofen II",
-    "locationDetails": {
-      "name": "Sportheim",
-      "address": "Wambacher Straße 33, 84181 Asbach",
-      "lat": 48.3847376,
-      "lng": 12.1980395
-    },
-    "seasonId": "season-1777239324127"
-  },
-  {
     "id": "1770558977720",
     "title": "Tennis-Hallenturnier",
     "startDate": "2026-02-07",
@@ -59,8 +42,7 @@
     "status": "approved",
     "gameType": "home",
     "opponent": "TSV Wendelskirchen",
-    "locationType": "neuhausen",
-    "seasonId": "season-1777239324127"
+    "locationType": "neuhausen"
   },
   {
     "id": "17681620206240589",
@@ -274,6 +256,16 @@
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
+  },
+  {
+    "id": "1777673478845",
+    "title": "SC Landshut Berg",
+    "startDate": "2026-08-03",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "home",
+    "locationType": "neuhausen"
   },
   {
     "id": "tennis-2026-10",
