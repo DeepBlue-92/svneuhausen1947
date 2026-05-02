@@ -5,5 +5,12 @@
     "name": "TSV Kronwinkl",
     "address": "Am Lenghardt 3, 84174 Kronwinkl",
     "id": "tsv-kronwinkl-1094"
+  },
+  {
+    "id": "sv-la-m-nchnerau",
+    "name": "SV LA-Münchnerau",
+    "address": "Am Eisweiher 30, 84034 Landshut",
+    "lat": 48.5288464,
+    "lng": 12.0880352
   }
 ]
