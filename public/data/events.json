@@ -429,18 +429,5 @@
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
-  },
-  {
-    "id": "17777138312394222",
-    "title": "(SG) Weihmichl/Neuhausen-TSV Kronwinkl\\, Meisterschaften\\, KK 2 Landshut",
-    "startDate": "2026-05-03",
-    "startTime": "15:00",
-    "endTime": "16:45",
-    "location": "Sportanlage Weihmichl\\, Platz 1\\,Am Pfarranger 5\\,84107 Weihmichl",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "TSV Kronwinkl",
-    "status": "approved",
-    "opponentId": "tsv-kronwinkl"
   }
 ]
