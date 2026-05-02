@@ -286,20 +286,6 @@
     "isDateTBD": true
   },
   {
-    "id": "17681620206248258",
-    "title": "SV Neuhausen - TSV Kronwinkl",
-    "startDate": "2026-05-03",
-    "startTime": "15:00",
-    "endTime": "16:45",
-    "location": "Am Pfarranger 5, 84107 Weihmichl",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "home",
-    "opponent": "TSV Kronwinkl",
-    "locationType": "weihmichl",
-    "seasonId": "season-1777239324127"
-  },
-  {
     "id": "tennis-2026-3",
     "title": "Beginn Tennistraining",
     "startDate": "2026-05-04",
@@ -314,39 +300,6 @@
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
-  },
-  {
-    "id": "17681620206246736",
-    "title": "Heimspiel gegen SV LA-Münchnerau",
-    "startDate": "2026-05-10",
-    "startTime": "13:00",
-    "endTime": "14:45",
-    "location": "Sportanlage Unterneuhausen, 84085 Weihmichl",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "home",
-    "locationType": "neuhausen",
-    "seasonId": "season-1777239324127"
-  },
-  {
-    "id": "1775422394998",
-    "title": "SV Gündlkofen - SV Neuhausen",
-    "startDate": "2026-05-15",
-    "startTime": "16:00",
-    "endTime": "18:00",
-    "location": "Dekan-Hort-Straße 42, 84079 Gündlkofen",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "away",
-    "opponent": "SV Gündlkofen",
-    "locationType": "neuhausen",
-    "locationDetails": {
-      "name": "Dekan-Hort-Straße",
-      "address": "Dekan-Hort-Straße 42, 84079 Gündlkofen",
-      "lat": 48.5335229,
-      "lng": 12.0329443
-    },
-    "seasonId": "season-1777239324127"
   },
   {
     "id": "tennis-2026-6",
@@ -412,82 +365,6 @@
     "startDate": "2026-11-06",
     "location": "Tennisanlage",
     "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
-    "id": "17777152777541985",
-    "title": "(SG) Weihmichl/Neuhausen-TSV Kronwinkl\\, Meisterschaften\\, KK 2 Landshut",
-    "startDate": "2026-05-03",
-    "startTime": "15:00",
-    "endTime": "16:45",
-    "location": "Sportanlage Weihmichl\\, Platz 1\\,Am Pfarranger 5\\,84107 Weihmichl",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "TSV Kronwinkl",
-    "status": "approved",
-    "opponentId": "tsv-kronwinkl-1094"
-  },
-  {
-    "id": "17777152777547583",
-    "title": "(SG) Weihmichl/Neuhausen-SV LA-Münchnerau\\, Meisterschaften\\, KK 2 Landshut",
-    "startDate": "2026-05-10",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmichl",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "SV LA-Münchnerau",
-    "status": "approved",
-    "opponentId": "sv-la-m-nchnerau"
-  },
-  {
-    "id": "17777152777546918",
-    "title": "SV Gündlkofen-(SG) Weihmichl/Neuhausen\\, Meisterschaften\\, KK 2 Landshut",
-    "startDate": "2026-05-16",
-    "startTime": "16:00",
-    "endTime": "17:45",
-    "location": "Sportanlage Gündlkofen\\, Platz 1\\,Dekan-Hort-Str. 42\\,84079 Bruckberg",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "",
-    "status": "approved"
-  },
-  {
-    "id": "17777156707038735",
-    "title": "SG Weihmichl/Neuhausen - TSV Kronwinkl",
-    "startDate": "2026-05-03",
-    "startTime": "15:00",
-    "endTime": "16:45",
-    "location": "Sportanlage Weihmichl\\, Platz 1\\,Am Pfarranger 5\\,84107 Weihmichl",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "TSV Kronwinkl",
-    "status": "approved",
-    "opponentId": "tsv-kronwinkl-1094"
-  },
-  {
-    "id": "17777156707044126",
-    "title": "SG Weihmichl/Neuhausen - SV LA-Münchnerau",
-    "startDate": "2026-05-10",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmichl",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "SV LA-Münchnerau",
-    "status": "approved",
-    "opponentId": "sv-la-m-nchnerau"
-  },
-  {
-    "id": "17777156707049408",
-    "title": "SV Gündlkofen-(SG) Weihmichl/Neuhausen\\, Meisterschaften\\, KK 2 Landshut",
-    "startDate": "2026-05-16",
-    "startTime": "16:00",
-    "endTime": "17:45",
-    "location": "Sportanlage Gündlkofen\\, Platz 1\\,Dekan-Hort-Str. 42\\,84079 Bruckberg",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "",
     "status": "approved"
   }
 ]
