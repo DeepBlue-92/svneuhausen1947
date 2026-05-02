@@ -12,5 +12,12 @@
     "address": "Am Eisweiher 30, 84034 Landshut",
     "lat": 48.5288464,
     "lng": 12.0880352
+  },
+  {
+    "id": "sv-g-ndlkofen",
+    "name": "SV Gündlkofen",
+    "address": "Dekan-Hort-Straße 40, 84079 Gündlkofen",
+    "lat": 48.5343815,
+    "lng": 12.0373287
   }
 ]
