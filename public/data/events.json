@@ -316,6 +316,16 @@
     "seasonId": "season-1777239324127"
   },
   {
+    "id": "17777120056128166",
+    "title": "(SG) Weihmichl/Neuhausen-TSV Kronwinkl\\, Meisterschaften\\, KK 2 L",
+    "startDate": "2026-05-03",
+    "startTime": "13:00",
+    "endTime": "14:45",
+    "location": "Sportanlage Weihmichl\\, Platz 1\\,Am Pfarranger 5\\,84107 Weihmich",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "tennis-2026-3",
     "title": "Beginn Tennistraining",
     "startDate": "2026-05-04",
@@ -345,6 +355,16 @@
     "seasonId": "season-1777239324127"
   },
   {
+    "id": "17777120056124541",
+    "title": "(SG) Weihmichl/Neuhausen-SV LA-Münchnerau\\, Meisterschaften\\, KK ",
+    "startDate": "2026-05-10",
+    "startTime": "12:00",
+    "endTime": "13:45",
+    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmi",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
     "id": "1775422394998",
     "title": "SV Gündlkofen - SV Neuhausen",
     "startDate": "2026-05-15",
@@ -363,6 +383,16 @@
       "lng": 12.0329443
     },
     "seasonId": "season-1777239324127"
+  },
+  {
+    "id": "17777120056123569",
+    "title": "SV Gündlkofen-(SG) Weihmichl/Neuhausen\\, Meisterschaften\\, KK 2 L",
+    "startDate": "2026-05-16",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Sportanlage Gündlkofen\\, Platz 1\\,Dekan-Hort-Str. 42\\,84079 Bruc",
+    "departmentId": "all",
+    "status": "approved"
   },
   {
     "id": "tennis-2026-6",
