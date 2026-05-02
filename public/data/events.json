@@ -429,5 +429,25 @@
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
+  },
+  {
+    "id": "17777133751589884",
+    "title": "(SG) Weihmichl/Neuhausen-SV LA-Münchnerau\\, Meisterschaften\\, KK 2 Landshut",
+    "startDate": "2026-05-10",
+    "startTime": "12:00",
+    "endTime": "13:45",
+    "location": "Sportanlage Neuhausen\\, Platz 1\\,Bräu-Taferl-Weg 3\\,84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved"
+  },
+  {
+    "id": "17777133751584570",
+    "title": "SV Gündlkofen-(SG) Weihmichl/Neuhausen\\, Meisterschaften\\, KK 2 Landshut",
+    "startDate": "2026-05-16",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Sportanlage Gündlkofen\\, Platz 1\\,Dekan-Hort-Str. 42\\,84079 Bruckberg",
+    "departmentId": "fussball",
+    "status": "approved"
   }
 ]
