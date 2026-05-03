@@ -378,9 +378,8 @@
     "departmentId": "fussball",
     "gameType": "home",
     "opponent": "TSV Kronwinkl",
-    "status": "deleted",
-    "opponentId": "tsv-kronwinkl-1094",
-    "deletedAt": "2026-05-03T20:25:38.931Z"
+    "status": "approved",
+    "opponentId": "tsv-kronwinkl-1094"
   },
   {
     "id": "17778057642682547",
