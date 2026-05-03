@@ -411,8 +411,7 @@
     "departmentId": "fussball",
     "gameType": "away",
     "opponent": "SV Gündlkofen",
-    "status": "deleted",
-    "opponentId": "sv-g-ndlkofen",
-    "deletedAt": "2026-05-03T20:25:38.931Z"
+    "status": "approved",
+    "opponentId": "sv-g-ndlkofen"
   }
 ]
