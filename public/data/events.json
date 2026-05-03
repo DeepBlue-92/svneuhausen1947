@@ -392,9 +392,8 @@
     "departmentId": "fussball",
     "gameType": "home",
     "opponent": "SV LA-Münchnerau",
-    "status": "deleted",
-    "opponentId": "sv-la-m-nchnerau",
-    "deletedAt": "2026-05-03T20:25:38.931Z"
+    "status": "approved",
+    "opponentId": "sv-la-m-nchnerau"
   },
   {
     "id": "17778057642683744",
