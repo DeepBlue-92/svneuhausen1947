@@ -378,8 +378,9 @@
     "departmentId": "fussball",
     "gameType": "home",
     "opponent": "TSV Kronwinkl",
-    "status": "approved",
-    "opponentId": "tsv-kronwinkl-1094"
+    "status": "deleted",
+    "opponentId": "tsv-kronwinkl-1094",
+    "deletedAt": "2026-05-03T20:25:38.931Z"
   },
   {
     "id": "17778057642682547",
@@ -392,8 +393,9 @@
     "departmentId": "fussball",
     "gameType": "home",
     "opponent": "SV LA-Münchnerau",
-    "status": "approved",
-    "opponentId": "sv-la-m-nchnerau"
+    "status": "deleted",
+    "opponentId": "sv-la-m-nchnerau",
+    "deletedAt": "2026-05-03T20:25:38.931Z"
   },
   {
     "id": "17778057642683744",
@@ -411,7 +413,8 @@
     "departmentId": "fussball",
     "gameType": "away",
     "opponent": "SV Gündlkofen",
-    "status": "approved",
-    "opponentId": "sv-g-ndlkofen"
+    "status": "deleted",
+    "opponentId": "sv-g-ndlkofen",
+    "deletedAt": "2026-05-03T20:25:38.931Z"
   }
 ]
