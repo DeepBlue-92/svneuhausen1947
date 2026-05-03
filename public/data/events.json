@@ -366,52 +366,5 @@
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
-  },
-  {
-    "id": "17778055478302705",
-    "title": "SG Weihmichl/Neuhausen - TSV Kronwinkl",
-    "startDate": "2026-05-03",
-    "startTime": "15:00",
-    "endTime": "16:45",
-    "location": "Am Pfarranger 5, 84107 Weihmichl",
-    "locationType": "weihmichl",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "TSV Kronwinkl",
-    "status": "approved",
-    "opponentId": "tsv-kronwinkl-1094"
-  },
-  {
-    "id": "17778055478312934",
-    "title": "SG Weihmichl/Neuhausen - SV LA-Münchnerau",
-    "startDate": "2026-05-10",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
-    "locationType": "neuhausen",
-    "departmentId": "fussball",
-    "gameType": "home",
-    "opponent": "SV LA-Münchnerau",
-    "status": "approved",
-    "opponentId": "sv-la-m-nchnerau"
-  },
-  {
-    "id": "17778055478311959",
-    "title": "SV Gündlkofen - SG Weihmichl/Neuhausen",
-    "startDate": "2026-05-16",
-    "startTime": "16:00",
-    "endTime": "17:45",
-    "location": "Platz 1, Dekan-Hort-Str. 42, 84079 Bruckberg",
-    "locationDetails": {
-      "name": "Auswärts",
-      "address": "Platz 1, Dekan-Hort-Str. 42, 84079 Bruckberg",
-      "lat": 0,
-      "lng": 0
-    },
-    "departmentId": "fussball",
-    "gameType": "away",
-    "opponent": "SV Gündlkofen",
-    "status": "approved",
-    "opponentId": "sv-g-ndlkofen"
   }
 ]
