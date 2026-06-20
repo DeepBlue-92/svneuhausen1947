@@ -1,150 +1,5 @@
 [
   {
-    "id": "17681620206240589",
-    "title": "SV Oberglaim - SV Neuhausen",
-    "startDate": "2026-03-29",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Oberglaimer Alm 1, 84030 Ergolding",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "away",
-    "opponent": "SV Oberglaim",
-    "locationDetails": {
-      "name": "Oberglaimer Alm",
-      "address": "Oberglaimer Alm 1, 84030 Ergolding",
-      "lat": 48.6111261,
-      "lng": 12.1164249
-    },
-    "seasonId": "season-1777239324127"
-  },
-  {
-    "id": "17681620206241298",
-    "title": "TSV Baierbach - SV Neuhausen",
-    "startDate": "2026-04-12",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Jägerstraße 11, 84171 Baierbach",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "away",
-    "opponent": "TSV Baierbach",
-    "locationDetails": {
-      "name": "11",
-      "address": "Jägerstraße 11, 84171 Baierbach",
-      "lat": 48.4211197,
-      "lng": 12.212286
-    },
-    "seasonId": "season-1777239324127"
-  },
-  {
-    "id": "17681620206242912",
-    "title": "TSV Tiefenbach - SV Neuhausen",
-    "startDate": "2026-04-25",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Am Sportplatz 2, 84184 Tiefenbach",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "away",
-    "opponent": "TSV Tiefenbach",
-    "locationDetails": {
-      "name": "2",
-      "address": "Am Sportplatz 2, 84184 Tiefenbach",
-      "lat": 48.5105466,
-      "lng": 12.0941013
-    },
-    "seasonId": "season-1777239324127"
-  },
-  {
-    "id": "17681620206242964",
-    "title": "SV Neuhausen - SC Buch am Erlbach",
-    "startDate": "2026-04-19",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "home",
-    "opponent": "SC Buch am Erlbach",
-    "locationType": "neuhausen",
-    "seasonId": "season-1777239324127"
-  },
-  {
-    "id": "17681620206243271",
-    "title": "SV Neuhausen - TSV Wendelskirchen",
-    "startDate": "2026-03-22",
-    "startTime": "14:00",
-    "endTime": "15:45",
-    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "home",
-    "opponent": "TSV Wendelskirchen",
-    "locationType": "neuhausen"
-  },
-  {
-    "id": "17681620206249843",
-    "title": "TSV Landshut Auloh - SV Neuhausen",
-    "startDate": "2026-04-04",
-    "startTime": "12:00",
-    "endTime": "13:45",
-    "location": "Duniwang 3a, 84036 Landshut",
-    "departmentId": "fussball",
-    "status": "approved",
-    "gameType": "away",
-    "opponent": "TSV Landshut Auloh",
-    "locationDetails": {
-      "name": "Sportheim TSV Landshut-Auloh",
-      "address": "Duniwang 3a, 84036 Landshut",
-      "lat": 48.5686487,
-      "lng": 12.219119
-    },
-    "seasonId": "season-1777239324127"
-  },
-  {
-    "id": "1769814064158",
-    "title": "Generalversammlung",
-    "startDate": "2026-02-27",
-    "startTime": "19:00",
-    "endTime": "22:00",
-    "location": "Sportheim",
-    "departmentId": "all",
-    "status": "approved"
-  },
-  {
-    "id": "1770558977720",
-    "title": "Tennis-Hallenturnier",
-    "startDate": "2026-02-07",
-    "startTime": "14:00",
-    "endTime": "18:00",
-    "location": "Tennishalle Rottenburg",
-    "departmentId": "tennis",
-    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1773519931023_Aufnahmeantrag_2024.pdf",
-    "status": "approved"
-  },
-  {
-    "id": "1772238896634",
-    "title": "KUMDO-Schnupperseminar",
-    "startDate": "2026-03-01",
-    "startTime": "10:00",
-    "endTime": "15:00",
-    "location": "Turnhalle Unterneuhausen",
-    "departmentId": "schwertkampf",
-    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1772238848261_KUMDO-Schnupperseminar-Flyer.pdf",
-    "status": "approved"
-  },
-  {
-    "id": "1774810400371",
-    "title": "Starkbierfest",
-    "startDate": "2026-04-02",
-    "startTime": "19:00",
-    "endTime": "",
-    "location": "Sportheim Neuhausen",
-    "departmentId": "all",
-    "status": "approved"
-  },
-  {
     "id": "1777673478845",
     "title": "SV Neuhausen - SC Landshut Berg",
     "startDate": "2025-08-03",
@@ -269,6 +124,169 @@
     "seasonId": "season-1777239324127"
   },
   {
+    "id": "1770558977720",
+    "title": "Tennis-Hallenturnier",
+    "startDate": "2026-02-07",
+    "startTime": "14:00",
+    "endTime": "18:00",
+    "location": "Tennishalle Rottenburg",
+    "departmentId": "tennis",
+    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1773519931023_Aufnahmeantrag_2024.pdf",
+    "status": "approved"
+  },
+  {
+    "id": "1769814064158",
+    "title": "Generalversammlung",
+    "startDate": "2026-02-27",
+    "startTime": "19:00",
+    "endTime": "22:00",
+    "location": "Sportheim",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "1772238896634",
+    "title": "KUMDO-Schnupperseminar",
+    "startDate": "2026-03-01",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "location": "Turnhalle Unterneuhausen",
+    "departmentId": "schwertkampf",
+    "pdfUrl": "https://raw.githubusercontent.com/DeepBlue-92/svneuhausen1947/main/public/downloads/doc_1772238848261_KUMDO-Schnupperseminar-Flyer.pdf",
+    "status": "approved"
+  },
+  {
+    "id": "17681620206243271",
+    "title": "SV Neuhausen - TSV Wendelskirchen",
+    "startDate": "2026-03-22",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "home",
+    "opponent": "TSV Wendelskirchen",
+    "locationType": "neuhausen"
+  },
+  {
+    "id": "17681620206240589",
+    "title": "SV Oberglaim - SV Neuhausen",
+    "startDate": "2026-03-29",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Oberglaimer Alm 1, 84030 Ergolding",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "SV Oberglaim",
+    "locationDetails": {
+      "name": "Oberglaimer Alm",
+      "address": "Oberglaimer Alm 1, 84030 Ergolding",
+      "lat": 48.6111261,
+      "lng": 12.1164249
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
+    "id": "1774810400371",
+    "title": "Starkbierfest",
+    "startDate": "2026-04-02",
+    "startTime": "19:00",
+    "endTime": "",
+    "location": "Sportheim Neuhausen",
+    "departmentId": "all",
+    "status": "approved"
+  },
+  {
+    "id": "17681620206249843",
+    "title": "TSV Landshut Auloh - SV Neuhausen",
+    "startDate": "2026-04-04",
+    "startTime": "12:00",
+    "endTime": "13:45",
+    "location": "Duniwang 3a, 84036 Landshut",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "TSV Landshut Auloh",
+    "locationDetails": {
+      "name": "Sportheim TSV Landshut-Auloh",
+      "address": "Duniwang 3a, 84036 Landshut",
+      "lat": 48.5686487,
+      "lng": 12.219119
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
+    "id": "17681620206241298",
+    "title": "TSV Baierbach - SV Neuhausen",
+    "startDate": "2026-04-12",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Jägerstraße 11, 84171 Baierbach",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "TSV Baierbach",
+    "locationDetails": {
+      "name": "11",
+      "address": "Jägerstraße 11, 84171 Baierbach",
+      "lat": 48.4211197,
+      "lng": 12.212286
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
+    "id": "17681620206242964",
+    "title": "SV Neuhausen - SC Buch am Erlbach",
+    "startDate": "2026-04-19",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Bräu-Taferl-Weg 3, 84107 Weihmichl",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "home",
+    "opponent": "SC Buch am Erlbach",
+    "locationType": "neuhausen",
+    "seasonId": "season-1777239324127"
+  },
+  {
+    "id": "17681620206242912",
+    "title": "TSV Tiefenbach - SV Neuhausen",
+    "startDate": "2026-04-25",
+    "startTime": "14:00",
+    "endTime": "15:45",
+    "location": "Am Sportplatz 2, 84184 Tiefenbach",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "away",
+    "opponent": "TSV Tiefenbach",
+    "locationDetails": {
+      "name": "2",
+      "address": "Am Sportplatz 2, 84184 Tiefenbach",
+      "lat": 48.5105466,
+      "lng": 12.0941013
+    },
+    "seasonId": "season-1777239324127"
+  },
+  {
+    "id": "tennis-2026-2",
+    "title": "Schleiferlturnier",
+    "startDate": "2026-04-26",
+    "location": "Tennisanlage",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-4",
+    "title": "Turnier in Furth",
+    "startDate": "2026-05-01",
+    "location": "Tennisanlage Furth",
+    "departmentId": "tennis",
+    "status": "deleted",
+    "isDateTBD": true,
+    "deletedAt": "2026-06-18T23:58:03.001Z"
+  },
+  {
     "id": "17778057642680426",
     "title": "SG Weihmichl/Neuhausen - TSV Kronwinkl",
     "startDate": "2026-05-03",
@@ -281,6 +299,14 @@
     "opponent": "TSV Kronwinkl",
     "status": "approved",
     "opponentId": "tsv-kronwinkl-1094"
+  },
+  {
+    "id": "tennis-2026-3",
+    "title": "Beginn Tennistraining",
+    "startDate": "2026-05-04",
+    "location": "Tennisanlage",
+    "departmentId": "tennis",
+    "status": "approved"
   },
   {
     "id": "17778057642682547",
@@ -326,65 +352,6 @@
     "status": "approved"
   },
   {
-    "id": "tennis-2026-10",
-    "title": "Mixedturnier mit Sommerfest",
-    "startDate": "2026-09-13",
-    "location": "Tennisanlage",
-    "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
-    "id": "tennis-2026-11",
-    "title": "Herren Doppelmeisterschaft",
-    "startDate": "2026-10-03",
-    "location": "Tennisanlage",
-    "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
-    "id": "tennis-2026-12",
-    "title": "Vergleichsturnier in Pfeffenhausen",
-    "startDate": "2026-10-01",
-    "location": "Tennisanlage Pfeffenhausen",
-    "departmentId": "tennis",
-    "status": "approved",
-    "isDateTBD": true
-  },
-  {
-    "id": "tennis-2026-13",
-    "title": "Hauptversammlung mit Neuwahlen",
-    "startDate": "2026-11-06",
-    "location": "Tennisanlage",
-    "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
-    "id": "tennis-2026-2",
-    "title": "Schleiferlturnier",
-    "startDate": "2026-04-26",
-    "location": "Tennisanlage",
-    "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
-    "id": "tennis-2026-3",
-    "title": "Beginn Tennistraining",
-    "startDate": "2026-05-04",
-    "location": "Tennisanlage",
-    "departmentId": "tennis",
-    "status": "approved"
-  },
-  {
-    "id": "tennis-2026-4",
-    "title": "Turnier in Furth",
-    "startDate": "2026-05-01",
-    "location": "Tennisanlage Furth",
-    "departmentId": "tennis",
-    "status": "deleted",
-    "isDateTBD": true,
-    "deletedAt": "2026-06-18T23:58:03.001Z"
-  },
-  {
     "id": "tennis-2026-5",
     "title": "Auslosung der Vereinsmeisterschaft",
     "startDate": "2026-05-22",
@@ -401,6 +368,17 @@
     "status": "deleted",
     "isDateTBD": true,
     "deletedAt": "2026-05-29T21:11:01.116Z"
+  },
+  {
+    "id": "1781954639854",
+    "title": "Testspiel gegen SSV LA-Schönbrunn",
+    "startDate": "2026-06-20",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "location": "Sportplatz Unterneuhausen",
+    "departmentId": "fussball",
+    "status": "approved",
+    "gameType": "other"
   },
   {
     "id": "tennis-2026-7",
@@ -422,6 +400,39 @@
     "id": "tennis-2026-9",
     "title": "Abschlußturnier Kinder und Jugend",
     "startDate": "2026-07-29",
+    "location": "Tennisanlage",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-10",
+    "title": "Mixedturnier mit Sommerfest",
+    "startDate": "2026-09-13",
+    "location": "Tennisanlage",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-12",
+    "title": "Vergleichsturnier in Pfeffenhausen",
+    "startDate": "2026-10-01",
+    "location": "Tennisanlage Pfeffenhausen",
+    "departmentId": "tennis",
+    "status": "approved",
+    "isDateTBD": true
+  },
+  {
+    "id": "tennis-2026-11",
+    "title": "Herren Doppelmeisterschaft",
+    "startDate": "2026-10-03",
+    "location": "Tennisanlage",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
+    "id": "tennis-2026-13",
+    "title": "Hauptversammlung mit Neuwahlen",
+    "startDate": "2026-11-06",
     "location": "Tennisanlage",
     "departmentId": "tennis",
     "status": "approved"
