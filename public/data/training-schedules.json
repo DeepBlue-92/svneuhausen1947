@@ -59,7 +59,7 @@
       },
       {
         "id": "1776201911886",
-        "type": "Offener Spieltag",
+        "type": "Dienstagsdoppel",
         "time": "",
         "location": "",
         "schedules": [
@@ -117,14 +117,14 @@
         "schedules": [
           {
             "day": "Mi",
-            "startTime": "17:00",
-            "endTime": "18:00"
+            "startTime": "18:00",
+            "endTime": "21:00"
           }
         ]
       },
       {
         "id": "1776202218576",
-        "type": "Offener Spieltag",
+        "type": "Freitagsdoppel",
         "time": "",
         "location": "",
         "schedules": [
