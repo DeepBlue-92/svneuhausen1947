@@ -397,6 +397,14 @@
     "status": "approved"
   },
   {
+    "id": "1782050218658",
+    "title": "Freundschaftsspiel in Furth",
+    "startDate": "2026-07-18",
+    "location": "Tennisanlage Furth",
+    "departmentId": "tennis",
+    "status": "approved"
+  },
+  {
     "id": "tennis-2026-9",
     "title": "Abschlußturnier Kinder und Jugend",
     "startDate": "2026-07-29",
