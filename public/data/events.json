@@ -376,7 +376,8 @@
     "startDate": "2026-07-04",
     "location": "Tennisanlage",
     "departmentId": "tennis",
-    "status": "approved"
+    "status": "deleted",
+    "deletedAt": "2026-06-30T20:19:58.937Z"
   },
   {
     "id": "tennis-2026-8",
