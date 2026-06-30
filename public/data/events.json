@@ -360,16 +360,6 @@
     "status": "approved"
   },
   {
-    "id": "tennis-2026-6",
-    "title": "Turnier gegen Pfeffenhausen",
-    "startDate": "2026-06-01",
-    "location": "Tennisanlage",
-    "departmentId": "tennis",
-    "status": "deleted",
-    "isDateTBD": true,
-    "deletedAt": "2026-05-29T21:11:01.116Z"
-  },
-  {
     "id": "1781954639854",
     "title": "Testspiel gegen SSV LA-Schönbrunn",
     "startDate": "2026-06-20",
